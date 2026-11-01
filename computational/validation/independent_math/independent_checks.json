@@ -1,0 +1,267 @@
+{
+  "description": "Independent review checks; imports no production or release verifier code.\n\nRational checks reconstruct selected slacks and use Fraction residual sums.\nCoefficient enclosures use alternating Taylor series and integer square roots.\nDense spectra below are diagnostics, not the source of any rigorous endpoint.\n",
+  "checks": [
+    {
+      "check": "candidate_scope_metadata",
+      "counts": {
+        "anderson": 12,
+        "eisert": 30,
+        "ffs_t0": 6,
+        "kull_rg": 27,
+        "lti": 27
+      },
+      "n_min_checked": 102
+    },
+    {
+      "check": "exact_slack_eisert_moderate_m4_t3",
+      "matrices": [
+        16,
+        64
+      ],
+      "gamma": [
+        12.753958835834686,
+        -12.74246796714468
+      ],
+      "coefficient_correction": 5.106608303364397e-19,
+      "upper": "-0.00164155267000085617770859681098459",
+      "seconds": 0.33477690001018345
+    },
+    {
+      "check": "exact_slack_lti_strong_m4_scs",
+      "matrices": [
+        16
+      ],
+      "gamma": [
+        0.010754144477712951
+      ],
+      "coefficient_correction": 6.277020839290246e-20,
+      "upper": "-0.01075414447771295151843342186608753",
+      "seconds": 0.007693700026720762
+    },
+    {
+      "check": "exact_slack_ffs_t0_weak_m4",
+      "matrices": [
+        16
+      ],
+      "gamma": [
+        0.0001286618012352377
+      ],
+      "coefficient_correction": 6.752601575066256e-19,
+      "upper": "-0.00012866180123523703800983292272622",
+      "seconds": 0.09483790001831949
+    },
+    {
+      "check": "exact_slack_ffs_t0_moderate_m3",
+      "matrices": [
+        8
+      ],
+      "gamma": [
+        0.0016420751046522743
+      ],
+      "coefficient_correction": 3.3442174526990283e-18,
+      "upper": "-0.00164207510465227087781696348680016",
+      "seconds": 0.016989600146189332
+    },
+    {
+      "check": "exact_slack_kull_rg_weak_k5_optimized_mps",
+      "matrices": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "gamma": [
+        0.00012919489480432876,
+        -2.0755800041322893e-08,
+        -8.193475958745195e-10,
+        -3.847554825020351e-11
+      ],
+      "coefficient_correction": 1.1591553733741181e-19,
+      "upper": "-0.00012910927365561928132973212140548",
+      "seconds": 0.7124853997956961,
+      "physical_ring": 7,
+      "compressed_traces": [
+        0.8970217553642872,
+        0.3521663712705427,
+        0.14801048778846235
+      ],
+      "trace_bounds": [
+        3.9999999999999365,
+        3.067677990839213,
+        2.1950033515440865
+      ],
+      "duality_identity_exact": true
+    },
+    {
+      "check": "exact_slack_kull_native_moderate_k5_optimized",
+      "matrices": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "gamma": [
+        0.0016447774143631378,
+        3.1243016761187876e-10,
+        4.967519941262872e-10,
+        7.78745505904645e-10
+      ],
+      "coefficient_correction": 5.106608303364397e-19,
+      "upper": "-0.00164477741436313730927008282697426",
+      "seconds": 0.6823245999403298,
+      "physical_ring": 7,
+      "compressed_traces": [
+        0.848567416847729,
+        0.45125642731412496,
+        0.23955744898809764
+      ],
+      "trace_bounds": [
+        3.999999999999992,
+        2.3630682157753413,
+        1.5338908984520239
+      ],
+      "duality_identity_exact": true
+    },
+    {
+      "check": "exact_slack_kull_native_strong_k3_block",
+      "matrices": [
+        16,
+        16
+      ],
+      "gamma": [
+        0.010754049367950195,
+        8.338927787956572e-10
+      ],
+      "coefficient_correction": 6.277020839290246e-20,
+      "upper": "-0.01075404936795019372102331160983639",
+      "seconds": 0.06556369992904365,
+      "physical_ring": 5,
+      "compressed_traces": [
+        0.7838986802358662
+      ],
+      "trace_bounds": [
+        4.000000000000112
+      ],
+      "duality_identity_exact": true
+    },
+    {
+      "check": "independent_generator_strong",
+      "ring": 9,
+      "mapping_max_error": 2.6645352591003757e-15,
+      "spectral_density": -0.01075414635137886,
+      "external_upper_count": 34,
+      "minimum_margin": 1.8736659081891593e-09
+    },
+    {
+      "check": "independent_generator_moderate",
+      "ring": 9,
+      "mapping_max_error": 1.7763568394002505e-15,
+      "spectral_density": -0.0016448023783959017,
+      "external_upper_count": 34,
+      "minimum_margin": 2.496403276436819e-08
+    },
+    {
+      "check": "independent_generator_weak",
+      "ring": 9,
+      "mapping_max_error": 1.3322676295501878e-15,
+      "spectral_density": -0.00012927690617311617,
+      "external_upper_count": 34,
+      "minimum_margin": 8.017361658428385e-08
+    },
+    {
+      "check": "run_inventory",
+      "success": 114,
+      "failures": 10,
+      "native": 12
+    },
+    {
+      "check": "posterior_strong_n5",
+      "alpha": 0.002441150273046311,
+      "beta": 0.9856511790244236,
+      "d": 0.0006334147837362691,
+      "Q_n": -0.010754146431552078,
+      "spectral_density": -0.010754146344901783,
+      "actual_gap": 8.665029457843865e-11,
+      "finite_D_bound": 1.0226242857473779e-07,
+      "stored_uniform_bound": "0.00000010226242857465756522413126269629759720610697827773696418824",
+      "rayleigh_identity_error": 1.0408340855860843e-17
+    },
+    {
+      "check": "posterior_strong_n7",
+      "alpha": 0.0024411502730470325,
+      "beta": 0.9856511790244236,
+      "d": 0.0006334147837366438,
+      "Q_n": -0.010754146432168321,
+      "spectral_density": -0.010754146351378354,
+      "actual_gap": 8.078996673044347e-11,
+      "finite_D_bound": 1.0226242857485893e-07,
+      "stored_uniform_bound": "0.00000010226242857465756522413126269629759720610697827773696418824",
+      "rayleigh_identity_error": 1.734723475976807e-18
+    },
+    {
+      "check": "posterior_moderate_n5",
+      "alpha": 0.026669769275560085,
+      "beta": 0.09935695148018978,
+      "d": 0.011104344416740033,
+      "Q_n": -0.0016450352897639125,
+      "spectral_density": -0.0016446758325434588,
+      "actual_gap": 3.594572204536784e-07,
+      "finite_D_bound": 0.00032749688481011085,
+      "stored_uniform_bound": "0.00032749688481009334949520731682988414353086987198333384900176712",
+      "rayleigh_identity_error": 3.686287386450715e-18
+    },
+    {
+      "check": "posterior_moderate_n7",
+      "alpha": 0.026669769275560917,
+      "beta": 0.09935695148018975,
+      "d": 0.011104344416739288,
+      "Q_n": -0.0016450417115244202,
+      "spectral_density": -0.001644799560748879,
+      "actual_gap": 2.421507755412649e-07,
+      "finite_D_bound": 0.0003274968848100675,
+      "stored_uniform_bound": "0.00032749688481009334949520731682988414353086987198333384900176712",
+      "rayleigh_identity_error": 2.6020852139652106e-18
+    },
+    {
+      "check": "posterior_weak_n5",
+      "alpha": 0.011381904488529881,
+      "beta": 0.009989159027979134,
+      "d": 0.004529415339993995,
+      "Q_n": -0.00012950526674822502,
+      "spectral_density": -0.00012896085945127714,
+      "actual_gap": 5.444072969478778e-07,
+      "finite_D_bound": 0.0005253373315908483,
+      "stored_uniform_bound": "0.00052533733159082932485412827459062737807950785513536129943672701",
+      "rayleigh_identity_error": 4.797594613248357e-18
+    },
+    {
+      "check": "posterior_weak_n7",
+      "alpha": 0.011381904488530326,
+      "beta": 0.009989159027979132,
+      "d": 0.004529415339994118,
+      "Q_n": -0.00012950587451402164,
+      "spectral_density": -0.00012921453266696452,
+      "actual_gap": 2.9134184705711876e-07,
+      "finite_D_bound": 0.0005253373315908774,
+      "stored_uniform_bound": "0.00052533733159082932485412827459062737807950785513536129943672701",
+      "rayleigh_identity_error": 5.339695699491109e-18
+    },
+    {
+      "check": "Monthus_exact_reconstruction",
+      "edges": 32,
+      "max_edge": "-141078963529/403146300000",
+      "max_word": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "finite_ring_lower": -0.35070688614441003,
+      "finite_ring_upper": -0.3507068861444099,
+      "separation_proven": true
+    }
+  ],
+  "elapsed_seconds": 5.196058799978346,
+  "script_sha256": "3c887db55cc690588e6c36ce09fdc9d30ea8b7171df67fe1d08ede8c427e111c"
+}

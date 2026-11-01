@@ -1,0 +1,60 @@
+{
+  "model": "periodic_soft_east_activity",
+  "c": "1/2",
+  "kappa": "1",
+  "tilt_factor": "1/2",
+  "s_note": "s=log(2), tilt_factor exact",
+  "R": 3,
+  "n_min": 5,
+  "bit_order": "leftmost_is_least_significant",
+  "trial_convention": "h_n(x)=product_i factor[x_i,...,x_{i+R-1}]",
+  "factor": [
+    "1.24410",
+    "0.80380",
+    "1.16128",
+    "0.86112",
+    "1.23520",
+    "0.80959",
+    "1.16854",
+    "0.85577"
+  ],
+  "z_upper": [
+    "0.00000",
+    "-0.00220",
+    "0.29340",
+    "0.30046",
+    "0.02592",
+    "0.03187",
+    "0.23263",
+    "0.22102",
+    "0.00181",
+    "-0.00068",
+    "0.28753",
+    "0.29023",
+    "0.02373",
+    "0.02885",
+    "0.23713",
+    "0.22918"
+  ],
+  "z_lower": [
+    "-0.00000",
+    "-0.00351",
+    "0.29659",
+    "0.30090",
+    "0.02741",
+    "0.03336",
+    "0.23293",
+    "0.22405",
+    "0.00220",
+    "0.00146",
+    "0.28741",
+    "0.29223",
+    "0.02336",
+    "0.02854",
+    "0.23846",
+    "0.23050"
+  ],
+  "generation_note": {
+    "type": "rounded frozen R3 witness to five decimal places; exactness established only by rational verifier"
+  }
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "arxiv": "2301.06142",
+    "retrieved": "2026-10-12",
+    "abs": {
+      "url": "https://arxiv.org/abs/2301.06142",
+      "file": "2301.06142_abs.html",
+      "sha256": "52c2196cc63353dcaf180d25c8fecd76a5c58d01320b4e8f9df8f1d80fdc0e39"
+    },
+    "title": [
+      "Lower bounds to variational problems with guarantees"
+    ],
+    "doi": [
+      "10.1103/cz6k-y46r"
+    ],
+    "version_dates": [
+      "[v1]",
+      "[v2]",
+      "[v3]"
+    ],
+    "html": {
+      "url": "https://arxiv.org/html/2301.06142",
+      "file": "2301.06142_html.html",
+      "sha256": "4a88a7548ca5e8c3721fcfa7a9967d904235ef058f9fd557e5aaad7fcf8a7bb9"
+    }
+  },
+  {
+    "arxiv": "2212.03014",
+    "retrieved": "2026-10-12",
+    "abs": {
+      "url": "https://arxiv.org/abs/2212.03014",
+      "file": "2212.03014_abs.html",
+      "sha256": "c7496bc13e66462fb153d1b39aac701b3ca40aa336f4dcc4dddb4efb9e4b0e13"
+    },
+    "title": [
+      "Lower Bounding Ground-State Energies of Local Hamiltonians Through the Renormalization Group"
+    ],
+    "doi": [
+      "10.1103/PhysRevX.14.021008"
+    ],
+    "version_dates": [
+      "[v1]",
+      "[v2]",
+      "[v3]"
+    ],
+    "html": {
+      "url": "https://arxiv.org/html/2212.03014",
+      "file": "2212.03014_html.html",
+      "sha256": "f965632a693db28912a28f38c9b1c235abb06f081b9a0dab7b6d590c72e651c5"
+    }
+  },
+  {
+    "arxiv": "1308.6124",
+    "retrieved": "2026-10-12",
+    "abs": {
+      "url": "https://arxiv.org/abs/1308.6124",
+      "file": "1308.6124_abs.html",
+      "sha256": "bc27cac82aa1b425af9cb49f6fcb38deb3d93ec8966d1267435e31ff14dda68c"
+    },
+    "title": [
+      "Large deviations of the dynamical activity in the East model: analysing structure in biased trajectories"
+    ],
+    "doi": [
+      "10.1088/1751-8113/47/1/015003"
+    ],
+    "version_dates": [
+      "[v1]",
+      "[v2]"
+    ],
+    "html": {
+      "url": "https://arxiv.org/html/1308.6124",
+      "file": "1308.6124_html.html",
+      "sha256": "0d9a87816b84d9524f32b6a05fbeed3ea988866d8c1a3cdf1c745627b61f686f"
+    }
+  },
+  {
+    "arxiv": "2311.18706",
+    "retrieved": "2026-10-12",
+    "abs": {
+      "url": "https://arxiv.org/abs/2311.18706",
+      "file": "2311.18706_abs.html",
+      "sha256": "471d6b867c656ff427a6edb594cbd7a744d7a31c1e22c5964004111505986202"
+    },
+    "title": [
+      "Certified algorithms for equilibrium states of local quantum Hamiltonians"
+    ],
+    "doi": [
+      "10.1038/s41467-024-51592-3"
+    ],
+    "version_dates": [
+      "[v1]",
+      "[v2]",
+      "[v3]"
+    ],
+    "html": {
+      "url": "https://arxiv.org/html/2311.18706",
+      "file": "2311.18706_html.html",
+      "sha256": "d9f5da2fa67d16a8a80783e8292331a57975c826deca79814e025d9c611203f5"
+    }
+  },
+  {
+    "arxiv": "2310.05844",
+    "retrieved": "2026-10-12",
+    "abs": {
+      "url": "https://arxiv.org/abs/2310.05844",
+      "file": "2310.05844_abs.html",
+      "sha256": "c5da646b242154400cbddd0d6f69e9bb2b716a087c3990f0280f72e9b212fa0c"
+    },
+    "title": [
+      "Certifying ground-state properties of quantum many-body systems"
+    ],
+    "doi": [
+      "10.1103/PhysRevX.14.031006"
+    ],
+    "version_dates": [
+      "[v1]",
+      "[v2]",
+      "[v3]",
+      "[v4]",
+      "[v5]"
+    ],
+    "html": {
+      "url": "https://arxiv.org/html/2310.05844",
+      "file": "2310.05844_html.html",
+      "sha256": "1dcd8df35451d51dc647341911b5d12bebcd4f019657e0afd0c12f1958d391af"
+    }
+  },
+  {
+    "arxiv": "1312.4782",
+    "retrieved": "2026-10-12",
+    "abs": {
+      "url": "https://arxiv.org/abs/1312.4782",
+      "file": "1312.4782_abs.html",
+      "sha256": "c415b36cb5989fcfa1a349b3746d8960de9c7ceb721c102f22e10855ecf02b24"
+    },
+    "title": [
+      "Locality and nonlocality of classical restrictions of quantum spin systems with applications to quantum large deviations and entanglement"
+    ],
+    "doi": [
+      "10.1063/1.4906767"
+    ],
+    "version_dates": [
+      "[v1]",
+      "[v2]"
+    ],
+    "html": {
+      "url": "https://arxiv.org/html/1312.4782",
+      "file": "1312.4782_html.html",
+      "sha256": "a0b5c29fa32356161f3d78f390e71f229fd6fdf5403f86596f56044cb7483fcc"
+    }
+  },
+  {
+    "arxiv": "2010.11643",
+    "retrieved": "2026-10-12",
+    "abs": {
+      "url": "https://arxiv.org/abs/2010.11643",
+      "file": "2010.11643_abs.html",
+      "sha256": "887e929450a1d87bb4a860054585dc4915caa1f114bbad08d54ca4dd0a5f3839"
+    },
+    "title": [
+      "Classical restrictions of generic matrix product states are quasi-locally Gibbsian"
+    ],
+    "doi": [
+      "10.1063/5.0040256"
+    ],
+    "version_dates": [
+      "[v1]",
+      "[v2]"
+    ],
+    "html": {
+      "url": "https://arxiv.org/html/2010.11643",
+      "file": "2010.11643_html.html",
+      "sha256": "7d1eca503626ec1cb7ff43d6370f5c41a6fc2752aa5f9d99d8840a824ec9fd9b"
+    }
+  }
+]

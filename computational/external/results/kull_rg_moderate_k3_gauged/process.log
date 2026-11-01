@@ -1,0 +1,5 @@
+{"method": "kull_rg", "case": "moderate", "m": 4, "status": "EXACT_DUAL_CERTIFICATE", "upper_density": "-0.00164157063202224637289594784963559", "total_seconds": 0.12756609986536205, "process_peak_memory_bytes": 293400576}
+
+Failed to find real location of C:\ProgramData\anaconda3\python.exe
+external/code/benchmark.py:148: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  if solver=='CLARABEL':prob.solve(solver=cp.CLARABEL,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10,max_iter=300)

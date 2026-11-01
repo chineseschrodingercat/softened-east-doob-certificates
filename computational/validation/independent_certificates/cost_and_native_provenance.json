@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "external_pairings": 1020,
+  "total_pairings": 1044,
+  "campaign_rows": 24,
+  "all_failed_attempts_accounted_once": 10,
+  "native_runs": [
+    {
+      "run": "kull_native_moderate_k3_block",
+      "core_seconds": 0.8464490999684692,
+      "MATLAB_process_wall_seconds": 13.318195200059563,
+      "startup_and_io_seconds": 12.547252600059563,
+      "solver_problem": 5
+    },
+    {
+      "run": "kull_native_moderate_k5_block",
+      "core_seconds": 1.0332720999420433,
+      "MATLAB_process_wall_seconds": 13.392508500022814,
+      "startup_and_io_seconds": 12.484213500022813,
+      "solver_problem": 5
+    },
+    {
+      "run": "kull_native_moderate_k5_optimized",
+      "core_seconds": 1.8145496998600363,
+      "MATLAB_process_wall_seconds": 13.326036100042984,
+      "startup_and_io_seconds": 12.443066600042984,
+      "solver_problem": 0
+    },
+    {
+      "run": "kull_native_moderate_k7_block",
+      "core_seconds": 1.2470245997820526,
+      "MATLAB_process_wall_seconds": 13.328566200099885,
+      "startup_and_io_seconds": 12.276794900099885,
+      "solver_problem": 0
+    },
+    {
+      "run": "kull_native_strong_k3_block",
+      "core_seconds": 0.8039092000488699,
+      "MATLAB_process_wall_seconds": 13.468657900113612,
+      "startup_and_io_seconds": 12.732667300113611,
+      "solver_problem": 0
+    },
+    {
+      "run": "kull_native_strong_k5_block",
+      "core_seconds": 0.9069250999638319,
+      "MATLAB_process_wall_seconds": 13.34487109980546,
+      "startup_and_io_seconds": 12.54980829980546,
+      "solver_problem": 0
+    },
+    {
+      "run": "kull_native_strong_k5_optimized",
+      "core_seconds": 1.846128100147289,
+      "MATLAB_process_wall_seconds": 13.690616700099781,
+      "startup_and_io_seconds": 12.82099400009978,
+      "solver_problem": -1
+    },
+    {
+      "run": "kull_native_strong_k7_block",
+      "core_seconds": 1.2317342999227971,
+      "MATLAB_process_wall_seconds": 13.25650620018132,
+      "startup_and_io_seconds": 12.21261340018132,
+      "solver_problem": 5
+    },
+    {
+      "run": "kull_native_weak_k3_block",
+      "core_seconds": 0.7783224999916226,
+      "MATLAB_process_wall_seconds": 13.326462199911475,
+      "startup_and_io_seconds": 12.621279499911475,
+      "solver_problem": 0
+    },
+    {
+      "run": "kull_native_weak_k5_block",
+      "core_seconds": 0.9553535999174505,
+      "MATLAB_process_wall_seconds": 13.242565100081265,
+      "startup_and_io_seconds": 12.404602200081264,
+      "solver_problem": 0
+    },
+    {
+      "run": "kull_native_weak_k5_optimized",
+      "core_seconds": 2.6204853996480137,
+      "MATLAB_process_wall_seconds": 13.41793129988946,
+      "startup_and_io_seconds": 12.54574849988946,
+      "solver_problem": 0
+    },
+    {
+      "run": "kull_native_weak_k7_block",
+      "core_seconds": 1.217417799958834,
+      "MATLAB_process_wall_seconds": 13.315141700208187,
+      "startup_and_io_seconds": 12.289789800208187,
+      "solver_problem": 5
+    }
+  ],
+  "author_sources": {
+    "declared_commit": "2e9015fff5d9bc5b170cdc6cee98fbbb928decda",
+    "scope": "Optional author source byte check; external code is intentionally not redistributed.",
+    "status": "EXACT_MATCH_TO_PINNED_SOURCE_ARCHIVE",
+    "functions": [
+      {
+        "source": "spinChains_1D/MPS_Relaxation/Relaxation_dual_SDP.m",
+        "sha256": "b5abf00fefe84e130587a9a3e83181736c93753b87956769402344538d0a5334"
+      },
+      {
+        "source": "spinChains_1D/MPS_Relaxation/declareDualVars.m",
+        "sha256": "17a811df4c4769cf31ff4320f8a4a3f58ba1c8d2522c895b43418953f0360d55"
+      },
+      {
+        "source": "spinChains_1D/MPS_Relaxation/setDualConstraints.m",
+        "sha256": "fce70d187671ff7a4eff0d866785c14c712d3c65c661a9b46bc7d2191a69bdad"
+      },
+      {
+        "source": "auxFunctions/tensor.m",
+        "sha256": "ff433f7396d46e4a71aa6ce17ceb50b391a7c39c82eb37de15ea7affb37a1c57"
+      }
+    ]
+  }
+}

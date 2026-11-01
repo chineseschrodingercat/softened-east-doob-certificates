@@ -1,0 +1,110 @@
+[
+  {
+    "case": "strong",
+    "last_k": 3,
+    "mps_strategy": "JS_range_two",
+    "native_process_wall_seconds": 13.468657900113612,
+    "matlab_startup_and_io_seconds": 12.732667300113611,
+    "process_peak_memory_bytes": 808685568,
+    "yalmip_problem": 0
+  },
+  {
+    "case": "strong",
+    "last_k": 5,
+    "mps_strategy": "JS_range_two",
+    "native_process_wall_seconds": 13.34487109980546,
+    "matlab_startup_and_io_seconds": 12.54980829980546,
+    "process_peak_memory_bytes": 813527040,
+    "yalmip_problem": 0
+  },
+  {
+    "case": "strong",
+    "last_k": 7,
+    "mps_strategy": "JS_range_two",
+    "native_process_wall_seconds": 13.25650620018132,
+    "matlab_startup_and_io_seconds": 12.21261340018132,
+    "process_peak_memory_bytes": 815292416,
+    "yalmip_problem": 5
+  },
+  {
+    "case": "strong",
+    "last_k": 5,
+    "mps_strategy": "general_real_D2_optimized",
+    "native_process_wall_seconds": 13.690616700099781,
+    "matlab_startup_and_io_seconds": 12.82099400009978,
+    "process_peak_memory_bytes": 817434624,
+    "yalmip_problem": -1
+  },
+  {
+    "case": "moderate",
+    "last_k": 3,
+    "mps_strategy": "JS_range_two",
+    "native_process_wall_seconds": 13.318195200059563,
+    "matlab_startup_and_io_seconds": 12.547252600059563,
+    "process_peak_memory_bytes": 812564480,
+    "yalmip_problem": 5
+  },
+  {
+    "case": "moderate",
+    "last_k": 5,
+    "mps_strategy": "JS_range_two",
+    "native_process_wall_seconds": 13.392508500022814,
+    "matlab_startup_and_io_seconds": 12.484213500022813,
+    "process_peak_memory_bytes": 810512384,
+    "yalmip_problem": 5
+  },
+  {
+    "case": "moderate",
+    "last_k": 7,
+    "mps_strategy": "JS_range_two",
+    "native_process_wall_seconds": 13.328566200099885,
+    "matlab_startup_and_io_seconds": 12.276794900099885,
+    "process_peak_memory_bytes": 817106944,
+    "yalmip_problem": 0
+  },
+  {
+    "case": "moderate",
+    "last_k": 5,
+    "mps_strategy": "general_real_D2_optimized",
+    "native_process_wall_seconds": 13.326036100042984,
+    "matlab_startup_and_io_seconds": 12.443066600042984,
+    "process_peak_memory_bytes": 812351488,
+    "yalmip_problem": 0
+  },
+  {
+    "case": "weak",
+    "last_k": 3,
+    "mps_strategy": "JS_range_two",
+    "native_process_wall_seconds": 13.326462199911475,
+    "matlab_startup_and_io_seconds": 12.621279499911475,
+    "process_peak_memory_bytes": 809881600,
+    "yalmip_problem": 0
+  },
+  {
+    "case": "weak",
+    "last_k": 5,
+    "mps_strategy": "JS_range_two",
+    "native_process_wall_seconds": 13.242565100081265,
+    "matlab_startup_and_io_seconds": 12.404602200081264,
+    "process_peak_memory_bytes": 812605440,
+    "yalmip_problem": 0
+  },
+  {
+    "case": "weak",
+    "last_k": 7,
+    "mps_strategy": "JS_range_two",
+    "native_process_wall_seconds": 13.315141700208187,
+    "matlab_startup_and_io_seconds": 12.289789800208187,
+    "process_peak_memory_bytes": 816377856,
+    "yalmip_problem": 5
+  },
+  {
+    "case": "weak",
+    "last_k": 5,
+    "mps_strategy": "general_real_D2_optimized",
+    "native_process_wall_seconds": 13.41793129988946,
+    "matlab_startup_and_io_seconds": 12.54574849988946,
+    "process_peak_memory_bytes": 816193536,
+    "yalmip_problem": 0
+  }
+]

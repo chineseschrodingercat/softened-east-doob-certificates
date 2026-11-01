@@ -1,0 +1,1848 @@
+{
+  "status": "PASS",
+  "scope": "Finite-state diagnostics of coupling/Duhamel and numerical checks of symbolic sufficient inequalities; not a proof of Theorem A or an independent review.",
+  "script_sha256": "6d929cad930d4e527d2d8961f24d7085f9cbbfb311604d072951fa71b31574a7",
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.4.3",
+    "scipy": "1.16.3",
+    "mpmath": "1.3.0"
+  },
+  "dynamical_cases": 60,
+  "observable_inequalities": 180,
+  "softening_cases": 15,
+  "dynamics": [
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 3,
+      "time": 0.025,
+      "gamma_row": 0.695602919891055,
+      "gamma_column": 0.6956029198910549,
+      "eta": 0.04150537925547087,
+      "functions": [
+        {
+          "error": 0.0008443024016102813,
+          "bound": 0.0014868251631703275,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.992237153712916
+        },
+        {
+          "error": 0.0015054142188177424,
+          "bound": 0.003419697875291753,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.1741081813965506
+        },
+        {
+          "error": 5.355958732078392e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.3306690738754696e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 3,
+      "time": 0.25,
+      "gamma_row": 0.695602919891055,
+      "gamma_column": 0.6956029198910549,
+      "eta": 0.04150537925547087,
+      "functions": [
+        {
+          "error": 0.005898801494515476,
+          "bound": 0.016098573219869995,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.8884330947591242
+        },
+        {
+          "error": 0.009540546735889369,
+          "bound": 0.03702671840570099,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.289223940671719
+        },
+        {
+          "error": 2.3332030751888055e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.3306690738754696e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 3,
+      "time": 0.8,
+      "gamma_row": 0.695602919891055,
+      "gamma_column": 0.6956029198910549,
+      "eta": 0.04150537925547087,
+      "functions": [
+        {
+          "error": 0.011925446941228848,
+          "bound": 0.06310388944747129,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.5602547310157657
+        },
+        {
+          "error": 0.012552358450159454,
+          "bound": 0.14513894572918395,
+          "oscillation": 2.3,
+          "evolved_oscillation": 0.36935228749687854
+        },
+        {
+          "error": 9.575673587391975e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.6653345369377348e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 3,
+      "time": 0.025,
+      "gamma_row": 0.7007921224742367,
+      "gamma_column": 0.7007921224742367,
+      "eta": 0.07129085960377875,
+      "functions": [
+        {
+          "error": 0.000429781359480071,
+          "bound": 0.0014365505175906227,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.01485306939289
+        },
+        {
+          "error": 0.0005976137937665886,
+          "bound": 0.003304066190458432,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.2529865220636776
+        },
+        {
+          "error": 6.179952383167375e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 0.0
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 3,
+      "time": 0.25,
+      "gamma_row": 0.7007921224742367,
+      "gamma_column": 0.7007921224742367,
+      "eta": 0.07129085960377875,
+      "functions": [
+        {
+          "error": 0.0035094762487502054,
+          "bound": 0.0155635989613296,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.133535647947796
+        },
+        {
+          "error": 0.0048536728288854246,
+          "bound": 0.03579627761105808,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.836677292738656
+        },
+        {
+          "error": 7.632783294297951e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.3306690738754696e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 3,
+      "time": 0.8,
+      "gamma_row": 0.7007921224742367,
+      "gamma_column": 0.7007921224742367,
+      "eta": 0.07129085960377875,
+      "functions": [
+        {
+          "error": 0.007222616844461547,
+          "bound": 0.06110458783378872,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.2987617093975665
+        },
+        {
+          "error": 0.009702094161081112,
+          "bound": 0.14054055201771404,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.0338090059270786
+        },
+        {
+          "error": 3.3306690738754696e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 6.661338147750939e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 3,
+      "time": 0.025,
+      "gamma_row": 0.7001663939972972,
+      "gamma_column": 0.7001663939972973,
+      "eta": 0.06766707795724387,
+      "functions": [
+        {
+          "error": 0.00022745386183174295,
+          "bound": 0.0012485930376390268,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.01717260393652
+        },
+        {
+          "error": 0.0002979358390944565,
+          "bound": 0.0028717639865697615,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.261099428273141
+        },
+        {
+          "error": 8.463553208964969e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.3306690738754696e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 3,
+      "time": 0.25,
+      "gamma_row": 0.7001663939972972,
+      "gamma_column": 0.7001663939972973,
+      "eta": 0.06766707795724387,
+      "functions": [
+        {
+          "error": 0.0018848119010615963,
+          "bound": 0.013526283464463582,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.1621045761248658
+        },
+        {
+          "error": 0.0024649601503036584,
+          "bound": 0.031110451968266235,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.904542304639394
+        },
+        {
+          "error": 1.2674323396355547e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 8.881784197001252e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 3,
+      "time": 0.8,
+      "gamma_row": 0.7001663939972972,
+      "gamma_column": 0.7001663939972973,
+      "eta": 0.06766707795724387,
+      "functions": [
+        {
+          "error": 0.00397567976707818,
+          "bound": 0.05309558767470066,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.418243466356609
+        },
+        {
+          "error": 0.005135700197581531,
+          "bound": 0.12211985165181151,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.1575176081550915
+        },
+        {
+          "error": 1.43982048506075e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 7.771561172376096e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 3,
+      "time": 0.025,
+      "gamma_row": 0.5280631606235311,
+      "gamma_column": 0.5280631606235311,
+      "eta": 0.11593866796973555,
+      "functions": [
+        {
+          "error": 0.0001992529145152128,
+          "bound": 0.0017956363933004965,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0104242087261766
+        },
+        {
+          "error": 0.000444347976529591,
+          "bound": 0.004129963704591142,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.2547380346008943
+        },
+        {
+          "error": 9.633136302533707e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.220446049250313e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 3,
+      "time": 0.25,
+      "gamma_row": 0.5280631606235311,
+      "gamma_column": 0.5280631606235311,
+      "eta": 0.11593866796973555,
+      "functions": [
+        {
+          "error": 0.001741091161142801,
+          "bound": 0.01906912434964962,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0899490619149677
+        },
+        {
+          "error": 0.003337020955356863,
+          "bound": 0.04385898600419413,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.8624839294127453
+        },
+        {
+          "error": 1.100465205072787e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.3306690738754696e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 3,
+      "time": 0.8,
+      "gamma_row": 0.5280631606235311,
+      "gamma_column": 0.5280631606235311,
+      "eta": 0.11593866796973555,
+      "functions": [
+        {
+          "error": 0.005654106668715449,
+          "bound": 0.07103250595612852,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.187739385937035
+        },
+        {
+          "error": 0.006139562612170337,
+          "bound": 0.1633747636990956,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.1076389521471217
+        },
+        {
+          "error": 2.5413698923060224e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 6.661338147750939e-16
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 3,
+      "time": 0.025,
+      "gamma_row": 1.08,
+      "gamma_column": 1.86,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.0010937796721564993,
+          "bound": 0.006013800850953214,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.9595092402223991
+        },
+        {
+          "error": 0.000734428372436871,
+          "bound": 0.013831741957192391,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.0793029988676457
+        },
+        {
+          "error": 7.990570011218168e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.3306690738754696e-16
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 3,
+      "time": 0.25,
+      "gamma_row": 1.08,
+      "gamma_column": 1.86,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.007704710196725653,
+          "bound": 0.06811158695105932,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.6614417654885043
+        },
+        {
+          "error": 0.00293155884795903,
+          "bound": 0.15665664998743642,
+          "oscillation": 2.3,
+          "evolved_oscillation": 0.8891841673389076
+        },
+        {
+          "error": 3.2612801348363973e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 4.440892098500626e-16
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 3,
+      "time": 0.8,
+      "gamma_row": 1.08,
+      "gamma_column": 1.86,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.012953372395844084,
+          "bound": 0.30162220791555416,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.26642389013129886
+        },
+        {
+          "error": 0.0013411246680398656,
+          "bound": 0.6937310782057745,
+          "oscillation": 2.3,
+          "evolved_oscillation": 0.22776633994603884
+        },
+        {
+          "error": 4.3021142204224816e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 9.992007221626409e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 4,
+      "time": 0.025,
+      "gamma_row": 0.6979563237749951,
+      "gamma_column": 0.6979563237749954,
+      "eta": 0.041505442062536264,
+      "functions": [
+        {
+          "error": 0.000854460691165045,
+          "bound": 0.0014873700822557,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.9922836426773047
+        },
+        {
+          "error": 0.0015135171510777326,
+          "bound": 0.00342095118918811,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.1746641813601606
+        },
+        {
+          "error": 1.1923513391909335e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 4.440892098500626e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 4,
+      "time": 0.25,
+      "gamma_row": 0.6979563237749951,
+      "gamma_column": 0.6979563237749954,
+      "eta": 0.041505442062536264,
+      "functions": [
+        {
+          "error": 0.006003894007354736,
+          "bound": 0.016108873807546116,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.8895301869288628
+        },
+        {
+          "error": 0.00958598509498226,
+          "bound": 0.037050409757356066,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.307996836080036
+        },
+        {
+          "error": 3.7578447298347584e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.6653345369377348e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 4,
+      "time": 0.8,
+      "gamma_row": 0.6979563237749951,
+      "gamma_column": 0.6979563237749954,
+      "eta": 0.041505442062536264,
+      "functions": [
+        {
+          "error": 0.011935219717223455,
+          "bound": 0.06319010380785967,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.5657750069522973
+        },
+        {
+          "error": 0.012599206095938845,
+          "bound": 0.14533723875807722,
+          "oscillation": 2.3,
+          "evolved_oscillation": 0.39411424836472636
+        },
+        {
+          "error": 6.158268339717665e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.886579864025407e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 4,
+      "time": 0.025,
+      "gamma_row": 0.7139744421353308,
+      "gamma_column": 0.7139744421353297,
+      "eta": 0.0713629054395839,
+      "functions": [
+        {
+          "error": 0.0005052015978688425,
+          "bound": 0.0014443417733077982,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0149956044250368
+        },
+        {
+          "error": 0.0006926182962518248,
+          "bound": 0.0033219860786079356,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.2537461684292044
+        },
+        {
+          "error": 6.14742631799281e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 8.881784197001252e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 4,
+      "time": 0.25,
+      "gamma_row": 0.7139744421353308,
+      "gamma_column": 0.7139744421353297,
+      "eta": 0.0713629054395839,
+      "functions": [
+        {
+          "error": 0.003905969635814083,
+          "bound": 0.015671985991706393,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.1359604204193745
+        },
+        {
+          "error": 0.00520078408258993,
+          "bound": 0.0360455677809247,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.869124490051917
+        },
+        {
+          "error": 2.4036762164003633e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.2212453270876722e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 4,
+      "time": 0.8,
+      "gamma_row": 0.7139744421353308,
+      "gamma_column": 0.7139744421353297,
+      "eta": 0.0713629054395839,
+      "functions": [
+        {
+          "error": 0.007616843485337987,
+          "bound": 0.06178114628538019,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.3236643298287132
+        },
+        {
+          "error": 0.01036197527786279,
+          "bound": 0.1420966364563744,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.1537873472272315
+        },
+        {
+          "error": 4.720616259001886e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.887379141862766e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 4,
+      "time": 0.025,
+      "gamma_row": 0.7026146391856,
+      "gamma_column": 0.7026146391855999,
+      "eta": 0.06783456447378207,
+      "functions": [
+        {
+          "error": 0.00024100834929264284,
+          "bound": 0.0012529433826735331,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.017198632294781
+        },
+        {
+          "error": 0.00030652769567811046,
+          "bound": 0.002881769780149126,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.2616117861732468
+        },
+        {
+          "error": 8.767002762318822e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 9.992007221626409e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 4,
+      "time": 0.25,
+      "gamma_row": 0.7026146391856,
+      "gamma_column": 0.7026146391855999,
+      "eta": 0.06783456447378207,
+      "functions": [
+        {
+          "error": 0.0019341325811678349,
+          "bound": 0.013577270870570925,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.1639465493105092
+        },
+        {
+          "error": 0.0025314730982368373,
+          "bound": 0.031227723002313124,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.9386852497540863
+        },
+        {
+          "error": 1.5052114285887819e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.2212453270876722e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 4,
+      "time": 0.8,
+      "gamma_row": 0.7026146391856,
+      "gamma_column": 0.7026146391855999,
+      "eta": 0.06783456447378207,
+      "functions": [
+        {
+          "error": 0.0040563268959847845,
+          "bound": 0.05333600843304092,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.4498586181314808
+        },
+        {
+          "error": 0.005273803226446481,
+          "bound": 0.1226728193959941,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.299582350736298
+        },
+        {
+          "error": 7.450637329320386e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.7763568394002505e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 4,
+      "time": 0.025,
+      "gamma_row": 0.5497463895786612,
+      "gamma_column": 0.5497463895786618,
+      "eta": 0.11546890892381143,
+      "functions": [
+        {
+          "error": 0.0002746095376463728,
+          "bound": 0.0018016248059466726,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0108701250041194
+        },
+        {
+          "error": 0.00044521319192492807,
+          "bound": 0.004143737053677347,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.255695653283782
+        },
+        {
+          "error": 5.683929889255257e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.1102230246251565e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 4,
+      "time": 0.25,
+      "gamma_row": 0.5497463895786612,
+      "gamma_column": 0.5497463895786618,
+      "eta": 0.11546890892381143,
+      "functions": [
+        {
+          "error": 0.0024677259433578606,
+          "bound": 0.019180603412240073,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0944248876672427
+        },
+        {
+          "error": 0.003394373303114522,
+          "bound": 0.044115387848152166,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.9000444821345241
+        },
+        {
+          "error": 1.9212062496443139e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 9.992007221626409e-16
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 4,
+      "time": 0.8,
+      "gamma_row": 0.5497463895786612,
+      "gamma_column": 0.5497463895786618,
+      "eta": 0.11546890892381143,
+      "functions": [
+        {
+          "error": 0.006150704375217548,
+          "bound": 0.07191536667640668,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.208715845231229
+        },
+        {
+          "error": 0.00790876416123139,
+          "bound": 0.16540534335573534,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.2703486615684945
+        },
+        {
+          "error": 4.527628272299467e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.220446049250313e-15
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 4,
+      "time": 0.025,
+      "gamma_row": 1.08,
+      "gamma_column": 2.565,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.0009269841965914749,
+          "bound": 0.006013800850953214,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.9657261244787059
+        },
+        {
+          "error": 0.0010427432449663897,
+          "bound": 0.013831741957192391,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.117546118818511
+        },
+        {
+          "error": 1.360673726469308e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 9.992007221626409e-16
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 4,
+      "time": 0.25,
+      "gamma_row": 1.08,
+      "gamma_column": 2.565,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.0067805915043004095,
+          "bound": 0.06811158695105932,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.705569500597896
+        },
+        {
+          "error": 0.0058310121838054145,
+          "bound": 0.15665664998743642,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.0450002627803143
+        },
+        {
+          "error": 3.7556763254897874e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.4432899320127035e-15
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 4,
+      "time": 0.8,
+      "gamma_row": 1.08,
+      "gamma_column": 2.565,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.012249125460956377,
+          "bound": 0.30162220791555416,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.3275875275236909
+        },
+        {
+          "error": 0.00756519790194351,
+          "bound": 0.6937310782057745,
+          "oscillation": 2.3,
+          "evolved_oscillation": 0.2852946691564342
+        },
+        {
+          "error": 1.2420620087993939e-15,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.1086244689504383e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 5,
+      "time": 0.025,
+      "gamma_row": 0.6983264678411272,
+      "gamma_column": 0.6983264678411271,
+      "eta": 0.04150544349899422,
+      "functions": [
+        {
+          "error": 0.000859343548363747,
+          "bound": 0.0014876024543034755,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.992293155664717
+        },
+        {
+          "error": 0.0015141141826054583,
+          "bound": 0.0034214856448979932,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.174812257168227
+        },
+        {
+          "error": 1.5791404642251372e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.2212453270876722e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 5,
+      "time": 0.25,
+      "gamma_row": 0.6983264678411272,
+      "gamma_column": 0.6983264678411271,
+      "eta": 0.04150544349899422,
+      "functions": [
+        {
+          "error": 0.00602992307154665,
+          "bound": 0.01611208286839716,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.889825986495052
+        },
+        {
+          "error": 0.009589361357802181,
+          "bound": 0.03705779059731346,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.3092121988293162
+        },
+        {
+          "error": 4.501607420159814e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.7755575615628914e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 5,
+      "time": 0.8,
+      "gamma_row": 0.6983264678411272,
+      "gamma_column": 0.6983264678411271,
+      "eta": 0.04150544349899422,
+      "functions": [
+        {
+          "error": 0.011935462253331496,
+          "bound": 0.06320990728983988,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.566694320443341
+        },
+        {
+          "error": 0.012604280649430307,
+          "bound": 0.14538278676663172,
+          "oscillation": 2.3,
+          "evolved_oscillation": 0.39632932983029967
+        },
+        {
+          "error": 6.349087922075114e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.1086244689504383e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 5,
+      "time": 0.025,
+      "gamma_row": 0.7223792496881396,
+      "gamma_column": 0.7223792496881382,
+      "eta": 0.0713825677996386,
+      "functions": [
+        {
+          "error": 0.0005685034228012178,
+          "bound": 0.00144977772007795,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0151514767505072
+        },
+        {
+          "error": 0.0007400929440601183,
+          "bound": 0.0033344887561792846,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.2542386569429675
+        },
+        {
+          "error": 7.714776083592167e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.3322676295501878e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 5,
+      "time": 0.25,
+      "gamma_row": 0.7223792496881396,
+      "gamma_column": 0.7223792496881382,
+      "eta": 0.0713825677996386,
+      "functions": [
+        {
+          "error": 0.004399515514256791,
+          "bound": 0.015746340439285807,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.1367990332020983
+        },
+        {
+          "error": 0.005352611383732822,
+          "bound": 0.03621658301035735,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.8746195933530234
+        },
+        {
+          "error": 2.3332030751888055e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.1094237467877974e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 5,
+      "time": 0.8,
+      "gamma_row": 0.7223792496881396,
+      "gamma_column": 0.7223792496881382,
+      "eta": 0.0713825677996386,
+      "functions": [
+        {
+          "error": 0.008603244582904342,
+          "bound": 0.062235869324229476,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.3283529175027717
+        },
+        {
+          "error": 0.010643327889732187,
+          "bound": 0.1431424994457278,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.1703226678245084
+        },
+        {
+          "error": 5.813492048867275e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.6645352591003757e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 5,
+      "time": 0.025,
+      "gamma_row": 0.7054141561005302,
+      "gamma_column": 0.7054141561005269,
+      "eta": 0.06793825455046729,
+      "functions": [
+        {
+          "error": 0.00026097609016647986,
+          "bound": 0.001256423046503822,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0172428777818754
+        },
+        {
+          "error": 0.0003141384473573278,
+          "bound": 0.0028897730069587903,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.261766034285242
+        },
+        {
+          "error": 9.774082584956822e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.4432899320127035e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 5,
+      "time": 0.25,
+      "gamma_row": 0.7054141561005302,
+      "gamma_column": 0.7054141561005269,
+      "eta": 0.06793825455046729,
+      "functions": [
+        {
+          "error": 0.0020432727734046273,
+          "bound": 0.013619404540163436,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.1644317537022806
+        },
+        {
+          "error": 0.0025917422616465935,
+          "bound": 0.0313246304423759,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.940837959140063
+        },
+        {
+          "error": 2.345129299086146e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.5543122344752192e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 5,
+      "time": 0.8,
+      "gamma_row": 0.7054141561005302,
+      "gamma_column": 0.7054141561005269,
+      "eta": 0.06793825455046729,
+      "functions": [
+        {
+          "error": 0.00413208918038874,
+          "bound": 0.053547777835246654,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.4532181265479927
+        },
+        {
+          "error": 0.005404487026181964,
+          "bound": 0.1231598890210673,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.3188105692704957
+        },
+        {
+          "error": 9.19837123136702e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.6645352591003757e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 5,
+      "time": 0.025,
+      "gamma_row": 0.5660693093800612,
+      "gamma_column": 0.5660693093800613,
+      "eta": 0.11536871260907258,
+      "functions": [
+        {
+          "error": 0.00042862121618983666,
+          "bound": 0.0018196935749199457,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0112318068565878
+        },
+        {
+          "error": 0.0005604323838131058,
+          "bound": 0.004185295222315874,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.2562534093520843
+        },
+        {
+          "error": 1.2213537473049207e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.5543122344752192e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 5,
+      "time": 0.25,
+      "gamma_row": 0.5660693093800612,
+      "gamma_column": 0.5660693093800613,
+      "eta": 0.11536871260907258,
+      "functions": [
+        {
+          "error": 0.0037230671670997833,
+          "bound": 0.019409487495330283,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.097448480076788
+        },
+        {
+          "error": 0.004595690325772466,
+          "bound": 0.044641821239259645,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.9061710707701933
+        },
+        {
+          "error": 2.7625471354930653e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.1094237467877974e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 5,
+      "time": 0.8,
+      "gamma_row": 0.5660693093800612,
+      "gamma_column": 0.5660693093800613,
+      "eta": 0.11536871260907258,
+      "functions": [
+        {
+          "error": 0.00879879030356755,
+          "bound": 0.07313286828746997,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.2170804989999104
+        },
+        {
+          "error": 0.009856249457151947,
+          "bound": 0.1682055970611809,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.3098959111770085
+        },
+        {
+          "error": 6.40546643504436e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.6637359812630166e-15
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 5,
+      "time": 0.025,
+      "gamma_row": 1.08,
+      "gamma_column": 3.24,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.0008261863371156607,
+          "bound": 0.006013800850953214,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.9694755730760267
+        },
+        {
+          "error": 0.001289636622435928,
+          "bound": 0.013831741957192391,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.1408724202349125
+        },
+        {
+          "error": 1.8458541986565713e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 1.4432899320127035e-15
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 5,
+      "time": 0.25,
+      "gamma_row": 1.08,
+      "gamma_column": 3.24,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.006182958375896821,
+          "bound": 0.06811158695105932,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.7334469562242918
+        },
+        {
+          "error": 0.007870381851993376,
+          "bound": 0.15665664998743642,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.1542614279602483
+        },
+        {
+          "error": 8.070800971982095e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.9976021664879227e-15
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 5,
+      "time": 0.8,
+      "gamma_row": 1.08,
+      "gamma_column": 3.24,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.01168880632090874,
+          "bound": 0.30162220791555416,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.37083428029819765
+        },
+        {
+          "error": 0.010851521975394312,
+          "bound": 0.6937310782057745,
+          "oscillation": 2.3,
+          "evolved_oscillation": 0.3236940315989799
+        },
+        {
+          "error": 1.3270634591222574e-15,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.9976021664879227e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 6,
+      "time": 0.025,
+      "gamma_row": 0.6984431206634977,
+      "gamma_column": 0.6984431206634979,
+      "eta": 0.041505443521124154,
+      "functions": [
+        {
+          "error": 0.0008596852821877157,
+          "bound": 0.0014876204594216084,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.9922948043569485
+        },
+        {
+          "error": 0.0015141502381375454,
+          "bound": 0.003421527056669699,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.1748185996370757
+        },
+        {
+          "error": 1.695692197767329e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.6645352591003757e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 6,
+      "time": 0.25,
+      "gamma_row": 0.6984431206634977,
+      "gamma_column": 0.6984431206634979,
+      "eta": 0.041505443521124154,
+      "functions": [
+        {
+          "error": 0.006031712640205482,
+          "bound": 0.01611249609502592,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.88986042687041
+        },
+        {
+          "error": 0.009589522991905457,
+          "bound": 0.03705874101855962,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.309557986338933
+        },
+        {
+          "error": 6.752411130239722e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 5.329070518200751e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=1.0 s=0.02",
+      "n": 6,
+      "time": 0.8,
+      "gamma_row": 0.6984431206634977,
+      "gamma_column": 0.6984431206634979,
+      "eta": 0.041505443521124154,
+      "functions": [
+        {
+          "error": 0.011935455661290503,
+          "bound": 0.06321380269834433,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.5668652864907509
+        },
+        {
+          "error": 0.012604511404219863,
+          "bound": 0.14539174620619194,
+          "oscillation": 2.3,
+          "evolved_oscillation": 0.3968650359945899
+        },
+        {
+          "error": 1.4779844015322396e-15,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 7.105427357601002e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 6,
+      "time": 0.025,
+      "gamma_row": 0.728912490121081,
+      "gamma_column": 0.7289124901210796,
+      "eta": 0.07138632223399859,
+      "functions": [
+        {
+          "error": 0.000591527183073226,
+          "bound": 0.001451757850916296,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0152895906301707
+        },
+        {
+          "error": 0.0007751433519860148,
+          "bound": 0.0033390430571074805,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.254347262218273
+        },
+        {
+          "error": 1.304701789314744e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.220446049250313e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 6,
+      "time": 0.25,
+      "gamma_row": 0.728912490121081,
+      "gamma_column": 0.7289124901210796,
+      "eta": 0.07138632223399859,
+      "functions": [
+        {
+          "error": 0.004569946972175318,
+          "bound": 0.01577982603638994,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.1383345690069373
+        },
+        {
+          "error": 0.005507109070476811,
+          "bound": 0.03629359988369686,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.875842803160205
+        },
+        {
+          "error": 4.371503159461554e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.9976021664879227e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.1 s=0.01",
+      "n": 6,
+      "time": 0.8,
+      "gamma_row": 0.728912490121081,
+      "gamma_column": 0.7289124901210796,
+      "eta": 0.07138632223399859,
+      "functions": [
+        {
+          "error": 0.008909263829662643,
+          "bound": 0.06249454133587224,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.3323809812189031
+        },
+        {
+          "error": 0.010737873438259849,
+          "bound": 0.14373744507250613,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.1767666849635539
+        },
+        {
+          "error": 7.038640503775895e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 4.884981308350689e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 6,
+      "time": 0.025,
+      "gamma_row": 0.7102090360785711,
+      "gamma_column": 0.7102090360785657,
+      "eta": 0.06799621300213235,
+      "functions": [
+        {
+          "error": 0.0002773450923528264,
+          "bound": 0.0012588074264660517,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.01735721266542
+        },
+        {
+          "error": 0.00032038821777551015,
+          "bound": 0.0028952570808719186,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.261862084109783
+        },
+        {
+          "error": 1.0102032566310006e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.220446049250313e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 6,
+      "time": 0.25,
+      "gamma_row": 0.7102090360785711,
+      "gamma_column": 0.7102090360785657,
+      "eta": 0.06799621300213235,
+      "functions": [
+        {
+          "error": 0.002168127842856411,
+          "bound": 0.013652852152552917,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.1654661721690631
+        },
+        {
+          "error": 0.00264109483776219,
+          "bound": 0.0314015599508717,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.9418978371163576
+        },
+        {
+          "error": 3.7452408795796144e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.219646771412954e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.3 kappa=0.01 s=0.001",
+      "n": 6,
+      "time": 0.8,
+      "gamma_row": 0.7102090360785711,
+      "gamma_column": 0.7102090360785657,
+      "eta": 0.06799621300213235,
+      "functions": [
+        {
+          "error": 0.004277514490828955,
+          "bound": 0.05375884108552623,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.455790360723673
+        },
+        {
+          "error": 0.005501179603045293,
+          "bound": 0.12364533449671031,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.3222406235830477
+        },
+        {
+          "error": 8.699638232023688e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 6.439293542825908e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 6,
+      "time": 0.025,
+      "gamma_row": 0.581416166719682,
+      "gamma_column": 0.5814161667196777,
+      "eta": 0.11535291146104423,
+      "functions": [
+        {
+          "error": 0.0005094427950247823,
+          "bound": 0.0018299477300373122,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0115933911789536
+        },
+        {
+          "error": 0.0006585234649122771,
+          "bound": 0.004208879779085818,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.2566430368793267
+        },
+        {
+          "error": 9.82287168271867e-17,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.6645352591003757e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 6,
+      "time": 0.25,
+      "gamma_row": 0.581416166719682,
+      "gamma_column": 0.5814161667196777,
+      "eta": 0.11535291146104423,
+      "functions": [
+        {
+          "error": 0.004394226530328177,
+          "bound": 0.01955347816952086,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.0996786551289024
+        },
+        {
+          "error": 0.005406256196570884,
+          "bound": 0.04497299978989797,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.9093468168302505
+        },
+        {
+          "error": 3.432584078089107e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 3.1086244689504383e-15
+        }
+      ]
+    },
+    {
+      "case": "East c=0.5 kappa=0.1 s=-0.03",
+      "n": 6,
+      "time": 0.8,
+      "gamma_row": 0.581416166719682,
+      "gamma_column": 0.5814161667196777,
+      "eta": 0.11535291146104423,
+      "functions": [
+        {
+          "error": 0.010225149226133804,
+          "bound": 0.0740182435994302,
+          "oscillation": 1.0,
+          "evolved_oscillation": 1.2239872016286875
+        },
+        {
+          "error": 0.011336786490628654,
+          "bound": 0.17024196027868943,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.3211506202331131
+        },
+        {
+          "error": 1.2611439670351388e-15,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 6.217248937900877e-15
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 6,
+      "time": 0.025,
+      "gamma_row": 1.08,
+      "gamma_column": 3.9000000000000004,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.0007586858614470158,
+          "bound": 0.006013800850953214,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.9719832893787385
+        },
+        {
+          "error": 0.0013690961786942337,
+          "bound": 0.013831741957192391,
+          "oscillation": 2.3,
+          "evolved_oscillation": 2.1565840821526674
+        },
+        {
+          "error": 1.577514160966409e-16,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 2.6645352591003757e-15
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 6,
+      "time": 0.25,
+      "gamma_row": 1.08,
+      "gamma_column": 3.9000000000000004,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.005765511202345738,
+          "bound": 0.06811158695105932,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.752641194053261
+        },
+        {
+          "error": 0.00877905857323985,
+          "bound": 0.15665664998743642,
+          "oscillation": 2.3,
+          "evolved_oscillation": 1.2346560732178924
+        },
+        {
+          "error": 1.0570971181733668e-15,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 5.10702591327572e-15
+        }
+      ]
+    },
+    {
+      "case": "nontranslation-invariant positive rates",
+      "n": 6,
+      "time": 0.8,
+      "gamma_row": 1.08,
+      "gamma_column": 3.9000000000000004,
+      "eta": 0.09000000000000005,
+      "functions": [
+        {
+          "error": 0.011245769110136564,
+          "bound": 0.30162220791555416,
+          "oscillation": 1.0,
+          "evolved_oscillation": 0.4027926629860378
+        },
+        {
+          "error": 0.012739948356443057,
+          "bound": 0.6937310782057745,
+          "oscillation": 2.3,
+          "evolved_oscillation": 0.38106033210502305
+        },
+        {
+          "error": 1.5230872119076366e-15,
+          "bound": 0.0,
+          "oscillation": 0.0,
+          "evolved_oscillation": 6.106226635438361e-15
+        }
+      ]
+    }
+  ],
+  "softening": [
+    {
+      "c": "0.1",
+      "kappa": "1",
+      "K": 32768,
+      "T": 110963,
+      "ell": 3550816,
+      "tau_over_T": "0.000394922307284114528204175966920457205387085068104246609768928927695378206551293401134829593",
+      "log10_beta": "-3145.83177041061034039442113997558950179473350921451552300786146811023758052121733541895879",
+      "log10_zeta": "-28210.5080894903309121510387813577921311004786905353283969027979191231844640537044981447867"
+    },
+    {
+      "c": "0.1",
+      "kappa": "0.1",
+      "K": 32768,
+      "T": 1224765,
+      "ell": 39192480,
+      "tau_over_T": "0.000226742555138331641178832586775481761339512412493266710745819661035362644511114298597175955",
+      "log10_beta": "-3147.91751956510313081209922871160613256717264611269262992489981841578784250385268763663754",
+      "log10_zeta": "-49485.8021920629163325291265510079209883957415759654093133201154689243767272213819524284832"
+    },
+    {
+      "c": "0.1",
+      "kappa": "0.01",
+      "K": 32768,
+      "T": 18583624,
+      "ell": 594675968,
+      "tau_over_T": "0.00015773775062598600945884841706425133899966408135740576151977667175509764428958294534346193",
+      "log10_beta": "-3150.27967485067411818273787473428343223695629121464874330160418014255751816582283223806013",
+      "log10_zeta": "-80081.3257855411922453138248999241075243736092922493382340374108200779539509348922754936849"
+    },
+    {
+      "c": "0.1",
+      "kappa": "0.0001",
+      "K": 32768,
+      "T": 3346091676,
+      "ell": 107074933632,
+      "tau_over_T": "0.000108304426651106425047723812298306044637009460502758027956236580250871564772229713495293752",
+      "log10_beta": "-3154.7904897020794450917264745707873976214288429926401444583153751043951299607984177106751",
+      "log10_zeta": "-145272.647783354722375095934193383158038324095928315242278424230085565368501736057897883665"
+    },
+    {
+      "c": "0.1",
+      "kappa": "0.000001",
+      "K": 32768,
+      "T": 485475168207,
+      "ell": 15535205382624,
+      "tau_over_T": "0.0000888800125964517995021398891755165429005670605607646112763250631986819711867707235255872564",
+      "log10_beta": "-3159.11374807272453276019708703600006632570983006967881757287917318318650422069959754204354",
+      "log10_zeta": "-210794.495809326531278868800764305765235487528887277615290400109644324961656035680301228406"
+    },
+    {
+      "c": "0.3",
+      "kappa": "1",
+      "K": 32768,
+      "T": 110963,
+      "ell": 3550816,
+      "tau_over_T": "0.000169252417407477654944646842965910230880179314901819975615255254726590659950554314772069826",
+      "log10_beta": "-3145.83177041061034039442113997558950179473350921451552300786146811023758052121733541895879",
+      "log10_zeta": "-28216.8785194815484738469057930196414303026064512129979361514573326757719060192416774071747"
+    },
+    {
+      "c": "0.3",
+      "kappa": "0.1",
+      "K": 32768,
+      "T": 1224765,
+      "ell": 39192480,
+      "tau_over_T": "0.0000971753807735707033623568229037778977169338910685428760339227118722982762190489851130754094",
+      "log10_beta": "-3147.91751956510313081209922871160613256717264611269262992489981841578784250385268763663754",
+      "log10_zeta": "-49492.2166574747125723054884198270810624874277357319073883548651726409766167930054735823009"
+    },
+    {
+      "c": "0.3",
+      "kappa": "0.01",
+      "K": 32768,
+      "T": 18583624,
+      "ell": 594675968,
+      "tau_over_T": "0.0000676018931254225754823636073132505738569988920103167549370471450378989904098212622900551127",
+      "log10_beta": "-3150.27967485067411818273787473428343223695629121464874330160418014255751816582283223806013",
+      "log10_zeta": "-80088.5462907739274136660678849928714624757643095491780732942963569046755739926091737259484"
+    },
+    {
+      "c": "0.3",
+      "kappa": "0.0001",
+      "K": 32768,
+      "T": 3346091676,
+      "ell": 107074933632,
+      "tau_over_T": "0.000046416182850474182163310205270702590558718340215467726266958534393230670616669877212268751",
+      "log10_beta": "-3154.7904897020794450917264745707873976214288429926401444583153751043951299607984177106751",
+      "log10_zeta": "-145281.64061446168656448208052117799568612944113271250093579321787373062003925277846285736"
+    },
+    {
+      "c": "0.3",
+      "kappa": "0.000001",
+      "K": 32768,
+      "T": 485475168207,
+      "ell": 15535205382624,
+      "tau_over_T": "0.0000380914339699079140723456667895070898145287402403276905469964556565779876514731672252516813",
+      "log10_beta": "-3159.11374807272453276019708703600006632570983006967881757287917318318650422069959754204354",
+      "log10_zeta": "-210805.204001845671548759451733486298717420798858604084402822158202188932163208523731377331"
+    },
+    {
+      "c": "0.5",
+      "kappa": "1",
+      "K": 32768,
+      "T": 110963,
+      "ell": 3550816,
+      "tau_over_T": "0.000142172030622281230153503348091364593939350624517528779516814413970336154358465624408538654",
+      "log10_beta": "-3145.83177041061034039442113997558950179473350921451552300786146811023758052121733541895879",
+      "log10_zeta": "-28217.6429710819815352224702813932261163652221669016739009664842448547693966107521063540949"
+    },
+    {
+      "c": "0.5",
+      "kappa": "0.1",
+      "K": 32768,
+      "T": 1224765,
+      "ell": 39192480,
+      "tau_over_T": "0.0000816273198497993908243797312391734340822244684975760158684950779727305520240011474949833439",
+      "log10_beta": "-3147.91751956510313081209922871160613256717264611269262992489981841578784250385268763663754",
+      "log10_zeta": "-49492.9863933246181935154085742777455237682341289744349600757099504111318411406113814672086"
+    },
+    {
+      "c": "0.5",
+      "kappa": "0.01",
+      "K": 32768,
+      "T": 18583624,
+      "ell": 594675968,
+      "tau_over_T": "0.0000567855902253549634051854301431304820398790692886660741471196018318351519442498603236462947",
+      "log10_beta": "-3150.27967485067411818273787473428343223695629121464874330160418014255751816582283223806013",
+      "log10_zeta": "-80089.4127514020927878470499130256731008329618038383130457396930519697458761271508709318945"
+    },
+    {
+      "c": "0.5",
+      "kappa": "0.0001",
+      "K": 32768,
+      "T": 3346091676,
+      "ell": 107074933632,
+      "tau_over_T": "0.0000389895935943983130171805724273901760693234057809928900642451688903137633180026968583057508",
+      "log10_beta": "-3154.7904897020794450917264745707873976214288429926401444583153751043951299607984177106751",
+      "log10_zeta": "-145282.719754194634063137342681950992231556232248353834377058899575170416310773295582780159"
+    },
+    {
+      "c": "0.5",
+      "kappa": "0.000001",
+      "K": 32768,
+      "T": 485475168207,
+      "ell": 15535205382624,
+      "tau_over_T": "0.0000319968045347226478207703601031859554442041418018752600594770227515255096272374604692114123",
+      "log10_beta": "-3159.11374807272453276019708703600006632570983006967881757287917318318650422069959754204354",
+      "log10_zeta": "-210806.48898494804367018110340854933265995896643798888571100104530075142448057995965746931"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "task": "reference",
+  "c": 0.3,
+  "kappa": 0.01,
+  "s": 0.001,
+  "N": 18,
+  "reference_seconds": 4.339725600089878,
+  "peak_rss_mb": 395.80078125,
+  "lambda_density": -0.00012929126045863854,
+  "residual_osc": 1.1528538540472866e-14,
+  "scope": "Floating finite reference, not a certified log-vector error.",
+  "reused": true,
+  "source_sha256": "3cc7836593bbe29125b1434d9d387fdae2aac0925116f8e6735be1177a0e0958",
+  "time_provenance": "v9 historical generation measurement"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "periodic_soft_east_activity",
+  "c": "0.3",
+  "kappa": "1",
+  "s": "-0.01",
+  "method": "constant",
+  "trial": "h=1",
+  "all_integer_n_at_least": 3,
+  "status": "VERIFIED_CONSTANT_CYCLES",
+  "interval_dps": 80,
+  "cycle_activity_means": [
+    "3/10",
+    "7/5",
+    "13/20"
+  ],
+  "lower_density": "0.00301505012525041726264963707085801",
+  "upper_density": "0.01407023391783528055903163966400405",
+  "exact_width": "276379594814621582409550064828651/25000000000000000000000000000000000",
+  "width": 0.011055183792584864,
+  "input_sha256": "dfb48113dacc360dedb9f957b971b97e0cec69832b138c88d33ce3a74e9dea3f",
+  "seconds": 0.00029239989817142487,
+  "proof": "Every closed binary walk decomposes into loops 0,1 and cycle 01; Collatz-Wielandt applies to h=1."
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "candidate": "perron_k1_s0.02_N14_R3.json",
+    "n_min": 5,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k1_s0.02_N14_R5.json",
+    "n_min": 9,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k1_s0.02_N14_R7.json",
+    "n_min": 13,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k1_s0.02_N18_R3.json",
+    "n_min": 5,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k1_s0.02_N18_R5.json",
+    "n_min": 9,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k1_s0.02_N18_R7.json",
+    "n_min": 13,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k1_s0.02_N18_R9.json",
+    "n_min": 17,
+    "quadratic": false,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.1_s0.01_N14_R3.json",
+    "n_min": 5,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.1_s0.01_N14_R5.json",
+    "n_min": 9,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.1_s0.01_N14_R7.json",
+    "n_min": 13,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.1_s0.01_N18_R3.json",
+    "n_min": 5,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.1_s0.01_N18_R5.json",
+    "n_min": 9,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.1_s0.01_N18_R7.json",
+    "n_min": 13,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.1_s0.01_N18_R9.json",
+    "n_min": 17,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.1_s0.01_N18_R8.json",
+    "n_min": 15,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.01_s0.001_N14_R3.json",
+    "n_min": 5,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.01_s0.001_N14_R5.json",
+    "n_min": 9,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.01_s0.001_N14_R7.json",
+    "n_min": 13,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.01_s0.001_N18_R3.json",
+    "n_min": 5,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.01_s0.001_N18_R5.json",
+    "n_min": 9,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.01_s0.001_N18_R7.json",
+    "n_min": 13,
+    "quadratic": true,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  },
+  {
+    "candidate": "perron_k0.01_s0.001_N18_R9.json",
+    "n_min": 17,
+    "quadratic": false,
+    "graph_volume_scope": "all n >= n_min",
+    "quadratic_scope": "thermodynamic limit with Q_infinity, not a finite-n center"
+  }
+]

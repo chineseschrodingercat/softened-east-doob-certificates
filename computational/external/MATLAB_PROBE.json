@@ -1,0 +1,9 @@
+{
+  "matlab": "26.2.0.3386108 (R2026b)",
+  "yalmip": "20250626",
+  "problem": 0,
+  "info": "Successfully solved (SDPT3)",
+  "value": 1.0000000000014966,
+  "solver_seconds": 0.3652283,
+  "model_seconds": 0.17177169999999903
+}

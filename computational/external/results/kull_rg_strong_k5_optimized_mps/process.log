@@ -1,0 +1,5 @@
+{"method": "kull_rg", "case": "strong", "m": 4, "status": "EXACT_DUAL_CERTIFICATE", "upper_density": "-0.01075413669198260209500047696550661", "total_seconds": 64.55414180015214, "process_peak_memory_bytes": 288530432}
+
+Failed to find real location of C:\ProgramData\anaconda3\python.exe
+external/code/benchmark.py:176: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  else:prob.solve(solver=cp.SCS,eps=1e-10,max_iters=250000)

@@ -1,0 +1,16 @@
+{
+  "task": "reference",
+  "c": 0.3,
+  "kappa": 1.0,
+  "s": 0.02,
+  "N": 14,
+  "reused": false,
+  "reference_seconds": 0.04200379992835224,
+  "peak_rss_mb": 92.62890625,
+  "lambda_density": -0.010754146351379053,
+  "residual_osc": 1.657007864253046e-14,
+  "h_min": 0.8757091107020998,
+  "h_max": 1.0677849617064608,
+  "time_provenance": "fresh single-thread worker",
+  "scope": "Floating residual diagnostic; not a certified uniform log error"
+}

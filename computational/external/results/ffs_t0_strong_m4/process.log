@@ -1,0 +1,5 @@
+{"method": "ffs_t0", "case": "strong", "m": 4, "status": "EXACT_DUAL_CERTIFICATE", "upper_density": "-0.01075414315654999601871647103391406", "total_seconds": 3.4425394001882523, "process_peak_memory_bytes": 293658624}
+
+Failed to find real location of C:\ProgramData\anaconda3\python.exe
+external/code/benchmark.py:148: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  if solver=='CLARABEL':prob.solve(solver=cp.CLARABEL,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10,max_iter=300)

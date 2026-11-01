@@ -1,0 +1,227 @@
+[
+  {
+    "run": "js_moderate_R2",
+    "n": 18,
+    "range": 2,
+    "enumerated_Q": -0.0016466164555294753,
+    "saved_Q": [
+      "-0.00164661645552944745105819290166989570303222808247723184724998128",
+      "-0.00164661645552944745105819290166989570303222808247723184724998127"
+    ],
+    "double_diagnostic_distance": 2.7755575615628914e-17,
+    "normalized_variance": 0.02242361019324971,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof."
+  },
+  {
+    "run": "js_moderate_R3",
+    "n": 18,
+    "range": 3,
+    "enumerated_Q": -0.0016450417243808046,
+    "saved_Q": [
+      "-0.00164504172438080548792737408788497998212189391252984291510751383",
+      "-0.00164504172438080548792737408788497998212189391252984291510751382"
+    ],
+    "double_diagnostic_distance": 8.673617379884035e-19,
+    "normalized_variance": 0.00302283401077079,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof."
+  },
+  {
+    "run": "js_moderate_R4",
+    "n": 18,
+    "range": 4,
+    "enumerated_Q": -0.0016448265017419447,
+    "saved_Q": [
+      "-0.00164482650174194532123025543825802946932954955115436672126591023",
+      "-0.00164482650174194532123025543825802946932954955115436672126591022"
+    ],
+    "double_diagnostic_distance": 6.505213034913027e-19,
+    "normalized_variance": 0.0003801582215726871,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof."
+  },
+  {
+    "run": "js_strong_R2",
+    "n": 18,
+    "range": 2,
+    "enumerated_Q": -0.010754156604962792,
+    "saved_Q": [
+      "-0.01075415660496261635762400092929073214456514165104949099127929218",
+      "-0.01075415660496261635762400092929073214456514165104949099127929217"
+    ],
+    "double_diagnostic_distance": 1.7694179454963432e-16,
+    "normalized_variance": 0.00011402329357890056,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof."
+  },
+  {
+    "run": "js_strong_R3",
+    "n": 18,
+    "range": 3,
+    "enumerated_Q": -0.010754146432168352,
+    "saved_Q": [
+      "-0.01075414643216834156310222522292558196006683323050441139871530080",
+      "-0.01075414643216834156310222522292558196006683323050441139871530079"
+    ],
+    "double_diagnostic_distance": 1.0408340855860843e-17,
+    "normalized_variance": 1.1753480077358757e-06,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof."
+  },
+  {
+    "run": "js_strong_R4",
+    "n": 18,
+    "range": 4,
+    "enumerated_Q": -0.01075414635179005,
+    "saved_Q": [
+      "-0.01075414635179006431673192618747423172913857583065222623139523880",
+      "-0.01075414635179006431673192618747423172913857583065222623139523879"
+    ],
+    "double_diagnostic_distance": 1.5612511283791264e-17,
+    "normalized_variance": 7.192696254303491e-09,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof."
+  },
+  {
+    "run": "js_weak_R2",
+    "n": 18,
+    "range": 2,
+    "enumerated_Q": -0.00012969577495164223,
+    "saved_Q": [
+      "-0.00012969577495163761856492396769093268503688133195244715958049914",
+      "-0.00012969577495163761856492396769093268503688133195244715958049913"
+    ],
+    "double_diagnostic_distance": 4.607859233063394e-18,
+    "normalized_variance": 0.14695383593635844,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof."
+  },
+  {
+    "run": "js_weak_R3",
+    "n": 18,
+    "range": 3,
+    "enumerated_Q": -0.00012950587523785677,
+    "saved_Q": [
+      "-0.00012950587523785549491837360868670034772383039765378754641046961",
+      "-0.00012950587523785549491837360868670034772383039765378754641046960"
+    ],
+    "double_diagnostic_distance": 1.2739375526704677e-18,
+    "normalized_variance": 0.0796388881471622,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof."
+  },
+  {
+    "run": "js_weak_R4",
+    "n": 18,
+    "range": 4,
+    "enumerated_Q": -0.00012938318243754554,
+    "saved_Q": [
+      "-0.00012938318243754369111353798027045995830226118865094002378939894",
+      "-0.00012938318243754369111353798027045995830226118865094002378939893"
+    ],
+    "double_diagnostic_distance": 1.8431436932253575e-18,
+    "normalized_variance": 0.04969331095590631,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof."
+  },
+  {
+    "run": "variance_moderate_R3",
+    "n": 18,
+    "range": 3,
+    "enumerated_Q": -0.0016452665655832825,
+    "saved_Q": [
+      "-0.00164526656558327874142592741557056047331789547552199359249317180",
+      "-0.00164526656558327874142592741557056047331789547552199359249317179"
+    ],
+    "double_diagnostic_distance": 3.686287386450715e-18,
+    "normalized_variance": 0.0020370677886180754,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof.",
+    "saved_optimizer_variance": 0.00203706778861806,
+    "gradient_probe_max_absolute_error": 1.6035544447845496e-08,
+    "gradient_probe_relative_error": 1.6901031328491406e-09,
+    "gradient_analytic": [
+      1.0446094756230375,
+      1.7656193572033592,
+      2.038716111656799,
+      -5.458523297366981,
+      1.7656193572033592,
+      -5.18542654291365,
+      -5.458523297366981,
+      9.487908835961454
+    ],
+    "gradient_central_difference": [
+      1.0446094748312387,
+      1.7656193573500554,
+      2.0387161134647473,
+      -5.45852329582406,
+      1.7656193573552597,
+      -5.185426540478717,
+      -5.45852329582406,
+      9.487908851996998
+    ]
+  },
+  {
+    "run": "variance_strong_R3",
+    "n": 18,
+    "range": 3,
+    "enumerated_Q": -0.01075414643395019,
+    "saved_Q": [
+      "-0.01075414643395023359271605169925607786808331513753137446316466022",
+      "-0.01075414643395023359271605169925607786808331513753137446316466021"
+    ],
+    "double_diagnostic_distance": 4.5102810375396984e-17,
+    "normalized_variance": 1.1602226489892236e-06,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof.",
+    "saved_optimizer_variance": 1.160222648989731e-06,
+    "gradient_probe_max_absolute_error": 1.71032725759801e-08,
+    "gradient_probe_relative_error": 1.7968673339917405e-09,
+    "gradient_analytic": [
+      2.6994677593281367,
+      3.1736630177698792,
+      2.6217643218517646,
+      -6.878347675961899,
+      3.1736630177698792,
+      -7.430246371878923,
+      -6.878347675961899,
+      9.518383607088667
+    ],
+    "gradient_central_difference": [
+      2.6994677764314092,
+      3.173663018080086,
+      2.621764324593594,
+      -6.878347674056304,
+      3.17366301807228,
+      -7.430246366811611,
+      -6.87834767406758,
+      9.51838362122856
+    ]
+  },
+  {
+    "run": "variance_weak_R3",
+    "n": 18,
+    "range": 3,
+    "enumerated_Q": -0.00012971624229824155,
+    "saved_Q": [
+      "-0.00012971624229824367177533670791938831779048961796337488871866266",
+      "-0.00012971624229824367177533670791938831779048961796337488871866265"
+    ],
+    "double_diagnostic_distance": 2.1141942363467336e-18,
+    "normalized_variance": 0.014696493716427525,
+    "scope": "Independent direct 2^18-state double enumeration; diagnostic, not an interval proof.",
+    "saved_optimizer_variance": 0.014696493716427523,
+    "gradient_probe_max_absolute_error": 1.4612184031648212e-06,
+    "gradient_probe_relative_error": 1.754853513910094e-09,
+    "gradient_analytic": [
+      89.41466835655305,
+      125.87472648898974,
+      142.0179411142146,
+      -443.9992857322146,
+      125.87472648898974,
+      -427.85607110699044,
+      -443.9992857322146,
+      832.6725801226526
+    ],
+    "gradient_central_difference": [
+      89.41466828066292,
+      125.87472649810972,
+      142.01794124785172,
+      -443.99928560490133,
+      125.87472649838728,
+      -427.85607092488135,
+      -443.99928560634464,
+      832.672581583871
+    ]
+  }
+]

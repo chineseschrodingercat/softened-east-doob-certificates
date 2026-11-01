@@ -1,0 +1,176 @@
+{
+  "status": "ALL_DIRECT_INTERVAL_CHECKS_PASSED",
+  "precision": 100,
+  "parameter_cases": 16,
+  "cases": [
+    {
+      "c": "0.3",
+      "kappa": "0.0001",
+      "T": 134217728,
+      "l": 4294967296,
+      "beta": "1e-3153",
+      "s0": "1e-3154",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.3",
+      "kappa": "0.001",
+      "T": 16777216,
+      "l": 536870912,
+      "beta": "1e-3152",
+      "s0": "1e-3153",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.3",
+      "kappa": "0.01",
+      "T": 1048576,
+      "l": 33554432,
+      "beta": "1e-3149",
+      "s0": "1e-3150",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.3",
+      "kappa": "0.1",
+      "T": 131072,
+      "l": 4194304,
+      "beta": "1e-3147",
+      "s0": "1e-3148",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.3",
+      "kappa": "1",
+      "T": 32768,
+      "l": 1048576,
+      "beta": "1e-3146",
+      "s0": "1e-3147",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.3",
+      "kappa": "10",
+      "T": 32768,
+      "l": 1048576,
+      "beta": "1e-3146",
+      "s0": "1e-3147",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.5",
+      "kappa": "0.0001",
+      "T": 134217728,
+      "l": 4294967296,
+      "beta": "1e-3153",
+      "s0": "1e-3154",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.5",
+      "kappa": "0.001",
+      "T": 16777216,
+      "l": 536870912,
+      "beta": "1e-3152",
+      "s0": "1e-3153",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.5",
+      "kappa": "0.01",
+      "T": 1048576,
+      "l": 33554432,
+      "beta": "1e-3149",
+      "s0": "1e-3150",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.5",
+      "kappa": "0.1",
+      "T": 131072,
+      "l": 4194304,
+      "beta": "1e-3147",
+      "s0": "1e-3148",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.5",
+      "kappa": "1",
+      "T": 32768,
+      "l": 1048576,
+      "beta": "1e-3146",
+      "s0": "1e-3147",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.5",
+      "kappa": "10",
+      "T": 32768,
+      "l": 1048576,
+      "beta": "1e-3146",
+      "s0": "1e-3147",
+      "source": "v7_saved_parameters",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.01",
+      "kappa": "0.000001",
+      "T": 281474976710656,
+      "l": 9007199254740992,
+      "beta": "1e-3199",
+      "s0": "1e-3200",
+      "source": "new_extreme_parameter_case",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.99",
+      "kappa": "0.000001",
+      "T": 281474976710656,
+      "l": 9007199254740992,
+      "beta": "1e-3199",
+      "s0": "1e-3200",
+      "source": "new_extreme_parameter_case",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.3",
+      "kappa": "0.00000001",
+      "T": 4503599627370496,
+      "l": 144115188075855872,
+      "beta": "1e-3199",
+      "s0": "1e-3200",
+      "source": "new_extreme_parameter_case",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    },
+    {
+      "c": "0.001",
+      "kappa": "0.01",
+      "T": 68719476736,
+      "l": 2199023255552,
+      "beta": "1e-3199",
+      "s0": "1e-3200",
+      "source": "new_extreme_parameter_case",
+      "status": "DIRECT_INTERVAL_VERIFIED"
+    }
+  ],
+  "scalar_domain_diagnostic": {
+    "HB": "2",
+    "R": "-1",
+    "z": "1.9",
+    "actual_norm": "100",
+    "invalid_bound": "sqrt(0.5)/0.1",
+    "scope": "Rejects an overly broad domain interpretation; not a counterexample to A1."
+  },
+  "scope": "Direct inequalities without the v7 logarithmic comparison code."
+}

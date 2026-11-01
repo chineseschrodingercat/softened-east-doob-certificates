@@ -1,0 +1,41 @@
+[
+  {
+    "case": "strong",
+    "n": 10,
+    "dimension": 1024,
+    "lower": "-0.0107541463513933010674381518751569654972",
+    "upper": "-0.0107541463513424037911692024881979037443",
+    "width": 5.0897276268949385e-14,
+    "ritz_diagnostic": -0.010754146351378812,
+    "minimum_positive_rational_vector_entry": "86792641401860193/100000000000000000",
+    "arithmetic": "Original nonsymmetric row generator; rational positive vector; exp at 130 dps outward; all remaining operations Fraction.",
+    "external_uppers_checked": 34,
+    "minimum_upper_above_cw_upper": 1.873629452272736e-09
+  },
+  {
+    "case": "moderate",
+    "n": 10,
+    "dimension": 1024,
+    "lower": "-0.0016448024205569910538299408541097951480",
+    "upper": "-0.0016448024205304682136394088131377378364",
+    "width": 2.652284019053204e-14,
+    "ritz_diagnostic": -0.0016448024205361355,
+    "minimum_positive_rational_vector_entry": "16330371290543999/20000000000000000",
+    "arithmetic": "Original nonsymmetric row generator; rational positive vector; exp at 130 dps outward; all remaining operations Fraction.",
+    "external_uppers_checked": 34,
+    "minimum_upper_above_cw_upper": 2.500616733090437e-08
+  },
+  {
+    "case": "weak",
+    "n": 10,
+    "dimension": 1024,
+    "lower": "-0.0001292854320116689737188751041680214238",
+    "upper": "-0.0001292854320024900634246539219214816993",
+    "width": 9.178910294221183e-15,
+    "ritz_diagnostic": -0.0001292854320052265,
+    "minimum_positive_rational_vector_entry": "22962310744771533/25000000000000000",
+    "arithmetic": "Original nonsymmetric row generator; rational positive vector; exp at 130 dps outward; all remaining operations Fraction.",
+    "external_uppers_checked": 34,
+    "minimum_upper_above_cw_upper": 8.869944595817715e-08
+  }
+]

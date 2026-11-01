@@ -1,0 +1,14 @@
+{
+  "status": "RESOLVED",
+  "native_labels_match_raw_codes": 12,
+  "raw_code_counts": {
+    "-1": 1,
+    "0": 7,
+    "5": 4
+  },
+  "main_table_native_status_rows_checked": 24,
+  "campaign_warning_and_native_code_counters_checked": 24,
+  "upper_endpoints_unchanged_against_pre_repair_independent_audit": 102,
+  "finite_centers_unchanged_against_pre_repair_independent_audit": 12,
+  "evidence": "Comparison to raw MATLAB exports and independent pre-repair review outputs; no solver rerun."
+}

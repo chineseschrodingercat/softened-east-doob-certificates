@@ -1,0 +1,24 @@
+{
+  "status": "INTERVAL_BUDGET_VERIFIED",
+  "c": "3/10",
+  "kappa": "1/100",
+  "s0_input": "1e-3150",
+  "block_length": 33554432,
+  "tolerance": "1/1000000",
+  "R": 9795321363,
+  "N": 23797333053,
+  "theta_lower": "1.300846595628383691267e-7",
+  "eta_max": "8.300178137481080691337e-19",
+  "density_rounding_max": "1.660035627496216138267e-18",
+  "log10_reference_dimension": "7163711065.75890637843",
+  "log10_graph_vertices": "5897371094.260324750887",
+  "four_log_error_terms_upper": [
+    "7.184357590439185264529e-46",
+    "1.626058235955558100121e-8",
+    "3.252116489070959228167e-8",
+    "3.252116489070959228167e-8"
+  ],
+  "width_bound_upper_display": "8.124999920480697139763e-7",
+  "check_precision_digits": 100,
+  "scope": "Verifies the size/error algebra, conditional on the supplied A1 block length and tilt window. No state space allocated."
+}

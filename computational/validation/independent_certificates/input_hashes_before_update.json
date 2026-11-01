@@ -1,0 +1,38 @@
+{
+  "external/code/exact_sdp.py": {
+    "sha256": "55d8448c3e8b92a6d8bd2362a153849d39c561ee67cfc38acac9c4400dabbf36",
+    "bytes": 9057
+  },
+  "external/code/benchmark.py": {
+    "sha256": "ae6d026f0a66fb8eb493352ac0578efd50c71bd754d4e03c52f1389ddde822e1",
+    "bytes": 15937
+  },
+  "external/code/summarize.py": {
+    "sha256": "8c51bbe9032fab8e32cb269594fcbed24937a7ca1db23afe444ee4355ccd4565",
+    "bytes": 13496
+  },
+  "external/code/run_native_kull.py": {
+    "sha256": "e0e89d814201c7d8d727a0d277dc4f978021cf9cb592cf6412ccad951a11cec0",
+    "bytes": 6626
+  },
+  "external/code/native_kull.m": {
+    "sha256": "02ca52c39aa4b65594adb957de2953dcc3bb55abda93acc2488b03e9cc68f947",
+    "bytes": 1513
+  },
+  "external/tables/all_paired_results.json": {
+    "sha256": "6f834e8b059548a2267877b997653bcc5dedf52fe7ceef96674bab12b272f3eb",
+    "bytes": 170262
+  },
+  "external/tables/all_cost_pairings.json": {
+    "sha256": "89fd067eabbda4a745fdbb089c573b9aa1d70642fb68014935ae9f81df3f0586",
+    "bytes": 847426
+  },
+  "external/tables/matched_tolerances.json": {
+    "sha256": "2cd630441583fd265d2ef036ad3643b216cc77f31c90bc919cf437ce829ea937",
+    "bytes": 44599
+  },
+  "external/tables/campaign_costs.json": {
+    "sha256": "74594669283a61f47ff4cf2a4680ea6c97cca6b16fdc309950bb21dc72a4a3a9",
+    "bytes": 14754
+  }
+}

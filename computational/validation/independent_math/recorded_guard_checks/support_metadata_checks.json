@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "volume_guard_checks": [
+    {
+      "run": "anderson_strong_m2",
+      "required": 2,
+      "valid_endpoint_match": true,
+      "rejected": [
+        {
+          "value": 1,
+          "message": "claimed n_min is below block support"
+        },
+        {
+          "value": 1,
+          "message": "claimed n_min is below block support"
+        },
+        {
+          "value": "2",
+          "message": "claimed n_min is below block support"
+        },
+        {
+          "value": 2.0,
+          "message": "claimed n_min is below block support"
+        }
+      ]
+    },
+    {
+      "run": "lti_strong_m4_scs",
+      "required": 4,
+      "valid_endpoint_match": true,
+      "rejected": [
+        {
+          "value": 1,
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": 3,
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": "4",
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": 4.0,
+          "message": "claimed n_min is below the support required by the SDP"
+        }
+      ]
+    },
+    {
+      "run": "eisert_moderate_m4_t3",
+      "required": 6,
+      "valid_endpoint_match": true,
+      "rejected": [
+        {
+          "value": 1,
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": 5,
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": "6",
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": 6.0,
+          "message": "claimed n_min is below the support required by the SDP"
+        }
+      ]
+    },
+    {
+      "run": "kull_native_moderate_k5_optimized",
+      "required": 7,
+      "valid_endpoint_match": true,
+      "rejected": [
+        {
+          "value": 1,
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": 6,
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": "7",
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": 7.0,
+          "message": "claimed n_min is below the support required by the SDP"
+        }
+      ]
+    },
+    {
+      "run": "ffs_t0_weak_m4",
+      "required": 4,
+      "valid_endpoint_match": true,
+      "rejected": [
+        {
+          "value": 1,
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": 3,
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": "4",
+          "message": "claimed n_min is below the support required by the SDP"
+        },
+        {
+          "value": 4.0,
+          "message": "claimed n_min is below the support required by the SDP"
+        }
+      ]
+    }
+  ],
+  "structural_support_checks": [
+    {
+      "run": "ffs_t0_weak_m4",
+      "changes": {
+        "m": 2
+      },
+      "rejected": true,
+      "message": "FFS requires both neighbors of the perturbed site"
+    },
+    {
+      "run": "eisert_moderate_m4_t3",
+      "changes": {
+        "overlap": 0
+      },
+      "rejected": true,
+      "message": "invalid overlap support"
+    },
+    {
+      "run": "eisert_moderate_m4_t3",
+      "changes": {
+        "overlap": 5
+      },
+      "rejected": true,
+      "message": "invalid overlap support"
+    },
+    {
+      "run": "kull_native_moderate_k5_optimized",
+      "changes": {
+        "last_k": 2
+      },
+      "rejected": true,
+      "message": "invalid compressed hierarchy range"
+    }
+  ],
+  "native_metadata_and_certificate_checks": [
+    {
+      "run": "kull_native_moderate_k3_block",
+      "problem": 5,
+      "label": "native_problem_5",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.547252600059563
+    },
+    {
+      "run": "kull_native_moderate_k5_block",
+      "problem": 5,
+      "label": "native_problem_5",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.484213500022813
+    },
+    {
+      "run": "kull_native_moderate_k5_optimized",
+      "problem": 0,
+      "label": "native_problem_0",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.443066600042984
+    },
+    {
+      "run": "kull_native_moderate_k7_block",
+      "problem": 0,
+      "label": "native_problem_0",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.276794900099885
+    },
+    {
+      "run": "kull_native_strong_k3_block",
+      "problem": 0,
+      "label": "native_problem_0",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.732667300113611
+    },
+    {
+      "run": "kull_native_strong_k5_block",
+      "problem": 0,
+      "label": "native_problem_0",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.54980829980546
+    },
+    {
+      "run": "kull_native_strong_k5_optimized",
+      "problem": -1,
+      "label": "native_problem_-1",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.82099400009978
+    },
+    {
+      "run": "kull_native_strong_k7_block",
+      "problem": 5,
+      "label": "native_problem_5",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.21261340018132
+    },
+    {
+      "run": "kull_native_weak_k3_block",
+      "problem": 0,
+      "label": "native_problem_0",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.621279499911475
+    },
+    {
+      "run": "kull_native_weak_k5_block",
+      "problem": 0,
+      "label": "native_problem_0",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.404602200081264
+    },
+    {
+      "run": "kull_native_weak_k5_optimized",
+      "problem": 0,
+      "label": "native_problem_0",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.54574849988946
+    },
+    {
+      "run": "kull_native_weak_k7_block",
+      "problem": 5,
+      "label": "native_problem_5",
+      "endpoint_match": true,
+      "startup_and_io_seconds": 12.289789800208187
+    }
+  ],
+  "independent_checks_rerun": 19,
+  "current_code_sha256": {
+    "external\\code\\exact_sdp.py": "2be536bbda1e5e1c444be61c3a2ac2d186b6ed1472c1ea8c0a8c03729c0bc715",
+    "external\\code\\benchmark.py": "f548980f90a61e2823470a6f889ca38a6f9ba979f83b24443e14c194410fd1a5",
+    "external\\code\\run_native_kull.py": "df4bbd69742e5ca63b125ddd445f445c6078ec32be1c302cbc00698b9b2349fa"
+  }
+}

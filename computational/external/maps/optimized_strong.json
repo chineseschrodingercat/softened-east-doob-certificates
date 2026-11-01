@@ -1,0 +1,54 @@
+{
+  "case": "strong",
+  "bond_dimension": 2,
+  "mps": [
+    [
+      [
+        "60287210334829/100000000000000",
+        "29672194369811/50000000000000"
+      ],
+      [
+        "-9261150110449/500000000000000",
+        "5239853423053/200000000000000"
+      ]
+    ],
+    [
+      [
+        "-19009894440327/500000000000000",
+        "961684138433/62500000000000"
+      ],
+      [
+        "4851444912791/12500000000000",
+        "9049313727621/25000000000000"
+      ]
+    ]
+  ],
+  "energy_diagnostic": 0.01075414637319589,
+  "initial_energy_diagnostic": 0.010754156604962596,
+  "optimizer_logs": [
+    {
+      "status": 2,
+      "message": "Desired error not necessarily achieved due to precision loss.",
+      "nit": 42,
+      "energy_diagnostic": 0.01075414637319589
+    },
+    {
+      "status": 2,
+      "message": "Desired error not necessarily achieved due to precision loss.",
+      "nit": 60,
+      "energy_diagnostic": 0.010754146429959914
+    },
+    {
+      "status": 2,
+      "message": "Desired error not necessarily achieved due to precision loss.",
+      "nit": 117,
+      "energy_diagnostic": 0.010754146381316188
+    }
+  ],
+  "map_optimization_seconds": 0.81856709998101,
+  "initial_trial_generation_seconds": 0.025195800000801682,
+  "total_generation_seconds": 0.8437628999818116,
+  "process_peak_memory_bytes": 81948672,
+  "use": "Map generation only; neither MPS energy nor optimizer status is a certified bound",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]"
+}

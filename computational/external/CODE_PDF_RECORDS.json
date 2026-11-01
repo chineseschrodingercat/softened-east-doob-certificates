@@ -1,0 +1,50 @@
+[
+  {
+    "repo": "IlyaKull/RDM_Constraints_Renormalization",
+    "commit": "2e9015fff5d9bc5b170cdc6cee98fbbb928decda",
+    "branch": "master",
+    "license": null,
+    "sha256": "d51905fa5c9b5bf02646acceae6a79dda104d3301a919d40b561616a91949bce"
+  },
+  {
+    "repo": "wangjie212/ManyBodySOS",
+    "commit": "0b152dfcd9bcde3403aa4d967642ce5261c80712",
+    "branch": "main",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "sha256": "c4e4b9de38c7743e3075bc539ba6e8a49551afeb4f91827627576ae3a977b299"
+  },
+  {
+    "arxiv": "2301.06142v3",
+    "sha256": "bb5f0ea9d037e241e6b55b3c0c9596ccd1b875364f7d3597296446fe595449da"
+  },
+  {
+    "arxiv": "2212.03014v3",
+    "sha256": "b0e9596fa23cf2eb446167babb0dfa8606c870a056bcce0ae10b6eb45b3fcb18"
+  },
+  {
+    "arxiv": "1308.6124v2",
+    "sha256": "fae6957b36375dbd0b23427d6ccf1a81102e3da1586691123d44aadcb05805bb"
+  },
+  {
+    "arxiv": "2311.18706v3",
+    "sha256": "3abd38303692533be0fbd88e652857040611eeee9b6ce44547ba28d6c9edff35"
+  },
+  {
+    "arxiv": "2310.05844v5",
+    "sha256": "c4fad1a1501d6de0c9b904067cd3f06f6270b7920ea4e5beec1f9779a82cb3fe"
+  },
+  {
+    "arxiv": "1312.4782v2",
+    "sha256": "8715b53d7d2827a823329a71de633a2f67e438d42e71becb7f345f0f17e1c8a1"
+  },
+  {
+    "arxiv": "2010.11643v2",
+    "sha256": "3d535d9a4b748123084b76d3c8b452be5b5662b2b5bff469f92ad3b80d43daaa"
+  }
+]

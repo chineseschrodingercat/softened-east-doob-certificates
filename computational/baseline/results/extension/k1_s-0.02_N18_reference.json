@@ -1,0 +1,15 @@
+{
+  "task": "reference",
+  "c": "0.3",
+  "kappa": "1",
+  "s": "-0.02",
+  "N": 18,
+  "reference_seconds": 1.460794199956581,
+  "peak_rss_mb": 395.9375,
+  "lambda_density": 0.01108805530097399,
+  "residual_osc": 2.4702462297909733e-14,
+  "h_min": 0.9193857817195424,
+  "h_max": 1.1822655124255952,
+  "sha256": "a4c8dae857496baa223fc420dd319339f6c3a7d884f8375a0407df8a31556f6c",
+  "scope": "New floating reference, not a certified log-vector error"
+}

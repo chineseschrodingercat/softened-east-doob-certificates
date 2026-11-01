@@ -1,0 +1,18 @@
+[
+  {
+    "repo": "yalmip/YALMIP",
+    "tag": "R20250626_fix2",
+    "release_url": "https://github.com/yalmip/YALMIP/releases/tag/R20250626_fix2",
+    "download_url": "https://api.github.com/repos/yalmip/YALMIP/zipball/R20250626_fix2",
+    "sha256": "76b7351fe6f4fe037675489a2dd84580377e9055239fdddd2cf879874a45d82c",
+    "mexw64_count": 0
+  },
+  {
+    "repo": "sqlp/sdpt3",
+    "tag": "4.0-20240410",
+    "release_url": "https://github.com/sqlp/sdpt3/releases/tag/4.0-20240410",
+    "download_url": "https://github.com/sqlp/sdpt3/releases/download/4.0-20240410/sdpt3.zip",
+    "sha256": "af2450f8769df590389f1b092363a51b0caef910240e7dd335bd39332a7bcdf7",
+    "mexw64_count": 15
+  }
+]

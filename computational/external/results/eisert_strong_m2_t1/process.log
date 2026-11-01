@@ -1,0 +1,3 @@
+{"method": "eisert", "case": "strong", "m": 2, "status": "EXACT_DUAL_CERTIFICATE", "upper_density": "-0.01074804058412182946623557899603420", "total_seconds": 0.016521499725058675, "process_peak_memory_bytes": 282492928}
+
+Failed to find real location of C:\ProgramData\anaconda3\python.exe

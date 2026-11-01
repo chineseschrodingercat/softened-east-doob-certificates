@@ -1,0 +1,21 @@
+{
+  "model": "periodic_soft_east_activity",
+  "density_convention": "U=sum(density); no implicit s factor",
+  "bit_order": "leftmost_is_least_significant",
+  "c": "0.3",
+  "kappa": "0.1",
+  "s": "0.01",
+  "R": 3,
+  "n_min": 5,
+  "reference_N": 18,
+  "density": [
+    "0.012657799311443552",
+    "0.001825428356842131",
+    "-0.0017703163083055643",
+    "-0.0016177469783509053",
+    "0.0018254283568424137",
+    "-0.0052134916435943035",
+    "-0.0016177469783517761",
+    "-0.0060893541165255548"
+  ]
+}

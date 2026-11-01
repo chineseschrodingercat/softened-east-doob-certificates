@@ -1,0 +1,5 @@
+{"method": "eisert", "case": "moderate", "m": 3, "status": "EXACT_DUAL_CERTIFICATE", "upper_density": "-0.00163997698212019049734643910074631", "total_seconds": 131.4938338000793, "process_peak_memory_bytes": 287068160}
+
+Failed to find real location of C:\ProgramData\anaconda3\python.exe
+external/code/benchmark.py:170: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  station=[cp.trace(np.asarray(a,float)@rho)==0 for a in ex.ffs_stationary(h,m)]

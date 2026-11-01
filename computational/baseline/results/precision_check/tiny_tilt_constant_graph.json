@@ -1,0 +1,28 @@
+{
+  "model": "periodic_soft_east_activity",
+  "density_convention": "U=sum(density); no implicit s factor",
+  "bit_order": "leftmost_is_least_significant",
+  "c": "0.3",
+  "kappa": "0.01",
+  "s": "1e-60",
+  "R": 2,
+  "n_min": 3,
+  "density": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "z_lower": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "z_upper": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ]
+}

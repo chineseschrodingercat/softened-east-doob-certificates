@@ -1,0 +1,5 @@
+{"method": "eisert", "case": "strong", "m": 4, "status": "EXACT_DUAL_CERTIFICATE", "upper_density": "-0.01075146344364897878300227966693896", "total_seconds": 119.68240569997579, "process_peak_memory_bytes": 287584256}
+
+Failed to find real location of C:\ProgramData\anaconda3\python.exe
+external/code/benchmark.py:170: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  else:prob.solve(solver=cp.SCS,eps=1e-10,max_iters=250000)

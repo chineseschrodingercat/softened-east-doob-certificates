@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "graph_cases": 22,
+  "quadratic_cases": 20,
+  "checks": [
+    {
+      "candidate": "perron_k1_s0.02_N14_R3.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k1_s0.02_N14_R5.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k1_s0.02_N14_R7.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k1_s0.02_N18_R3.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k1_s0.02_N18_R5.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k1_s0.02_N18_R7.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k1_s0.02_N18_R9.json",
+      "quadratic": false,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.1_s0.01_N14_R3.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.1_s0.01_N14_R5.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.1_s0.01_N14_R7.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.1_s0.01_N18_R3.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.1_s0.01_N18_R5.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.1_s0.01_N18_R7.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.1_s0.01_N18_R9.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.1_s0.01_N18_R8.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.01_s0.001_N14_R3.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.01_s0.001_N14_R5.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.01_s0.001_N14_R7.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.01_s0.001_N18_R3.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.01_s0.001_N18_R5.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.01_s0.001_N18_R7.json",
+      "quadratic": true,
+      "status": "PASS"
+    },
+    {
+      "candidate": "perron_k0.01_s0.001_N18_R9.json",
+      "quadratic": false,
+      "status": "PASS"
+    }
+  ]
+}

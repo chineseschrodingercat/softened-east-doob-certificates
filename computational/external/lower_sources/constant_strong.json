@@ -1,0 +1,20 @@
+{
+  "case": "strong",
+  "c": "0.3",
+  "kappa": "1",
+  "s": "0.02",
+  "n_min": 3,
+  "targets": [
+    "limit",
+    "n18"
+  ],
+  "Q": {
+    "lower": "-0.01081152437451160498743549909298136",
+    "upper": "-0.01081152437451160498743549909298135"
+  },
+  "candidate_seconds": 1.6998965293169022e-06,
+  "verification_seconds": 0.00022320006974041462,
+  "total_seconds": 0.00022489996626973152,
+  "process_peak_memory_bytes": 27443200,
+  "derivation": "E_pi[(L_s 1)/n] = 2 c (1-c) (kappa+c) (exp(-s)-1); Rayleigh lower value, plus universal spectral upper zero"
+}

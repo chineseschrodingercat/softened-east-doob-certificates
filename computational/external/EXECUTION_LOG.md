@@ -1,0 +1,32 @@
+# Execution decisions and adverse outcomes
+
+- Before edits: archived all five root v19 deliverables plus the full manuscript_v19 directory at archive/submission_v19_before_external_v20_20261012; SHA-256 manifest recorded. New work lives entirely in this extension until release.
+- Public network access from the restricted shell initially failed DNS resolution. Download/install operations succeeded with task-scoped approval. Dependencies were installed only in this extension's runtime directory. mpmath was then fixed to 1.3.0 to match the original interval certificates; no existing scientific environment was changed.
+- Latest arXiv metadata and full PDFs were retrieved for all seven requested papers. Author repositories for Kull and Wang were downloaded at exact commits. MATLAB, YALMIP and Julia were not found in the inspected runtime. No native-author-code performance is claimed.
+- Command-line publisher downloads returned HTTP 403 or a non-PDF response. Eisert's formal PDF was readable through the web reader and full text was available directly in Chrome without login. Browser PDF download timed out; this is recorded as a failed download, not a missing scientific comparison. The formal equation (28) corrects an arXiv index typo; the implemented equation uses the formal version.
+- Initial Kull unorthogonalized-map strong-softening pilot was rigorous but poorly conditioned and is retained as kull_rg_strong_k3. Added an invertible rational MPS gauge, rather than treating rounded SVD vectors as exact isometries. Composition and inverse identities were checked exactly. Gauged CLARABEL failed for several levels. All failed output folders are retained.
+- The same SCS repair grid was frozen for all three parameters: LTI m=3,4,5,6 and RG last k=3,5,7, eps=1e-10, max_iters=250000, per-worker limit 180 seconds. This is a solver repair, not parameter selection. Every successful output has independently reconstructed rational PSD corrections.
+- Added Eisert (m,t)=(3,3),(4,3),(6,3) at all three points so its largest PSD block reaches dimension 64, matching the initial LTI cap. Also added range-three variance minimization at all three points on the n=18 ring. This extension of numerical effort does not change the model, parameters or theoretical window.
+- Benchmark workers run sequentially with OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1. Clarabel's internal max_threads setting remains its default 0 (automatic); actual solver-internal thread counts were not instrumented. Source review and writing proceed while workers run; no second numerical benchmark is launched simultaneously. Wall time including subprocess startup is printed separately from candidate/verification kernel totals. Times are single runs, not medians or a hardware-independent performance theorem.
+- A zero-temperature FFS constraint depends on the Hamiltonian coefficients as well as the energy objective. Its proof explicitly charges the dual-weighted coefficient error; the ordinary local energy error alone would be insufficient. PSD duals are constructed as exact rational Gram matrices.
+- All summary intervals must pair a common fresh range-four Jack-Sollich variational lower endpoint with each external spectral upper endpoint, separately for n=18 and the limit. The common lower-endpoint preparation cost is included in paired totals. Raw one-sided data, lower-range candidates and all failures remain available. Larger frozen v19 candidates are a separate replay-only comparison, with generation cost labelled unavailable rather than zero.
+- After the added Eisert overlap-three levels showed nonmonotone validated accuracy, the same SCS repair was applied to all nine added levels, with the same tolerance, iteration and 180-second worker cap. These additional attempts count in the campaign ledger.
+- Reporting intersects every method, uniformly, with the elementary zero spectral upper bound valid at nonnegative tilt. Raw endpoints are preserved. Descriptive time-to-width summaries at 1e-4, 1e-6 and 1e-8 were added after the runs, using the cheapest observed eligible run, without changing candidates. They are distinct from cumulative search costs and are not a prespecified superiority test.
+- To avoid restricting the RG map to the pair-potential ansatz, a further k=5 grid at all three points uses general real D=2 MPS matrices, with three deterministic starts and the original map as fallback. The transfer energy is a map-generation diagnostic only; exact rational map/slack verification determines the published endpoint. This added generation and solve cost is retained.
+- A cost audit identified that forcing every time-to-tolerance comparison to use the common R=4 lower endpoint would overcharge cheap external bounds. Width tables still use that common endpoint, but matched-cost tables now search all freshly verified R=2/3/4, variance and constant-trial lower endpoints. They record the sum of measured component times and exact paired widths. Campaign totals additionally charge the eligible lower pool once; no omitted historical generation time is imputed as zero.
+
+
+MATLAB became available during the comparison (user notification), and was actually
+used. Initial startup under the file sandbox failed because the normal MATLAB
+preference folder was not writable; authorized normal execution resolved it.
+The first SDP probe failed under SDPT3's automatic HSD selection, not a confirmed
+function-shadowing defect (the initial path-conflict diagnosis was provisional).
+Removing HSD from the path caused a missing-function error. Restoring the official
+paths and explicitly selecting standard model 1 passed the 2-by-2 probe. That mode
+was fixed for all native author runs, with 1e-10 tolerances and maxit=150. Prior
+probe logs and failed values remain in matlab_runtime and are not scientific bounds.
+The unmodified author code's outputs are validated by the same rational slack
+reconstruction used for the port. MATLAB releases and binary hashes are pinned;
+the downloaded development snapshots were not used for the reported native runs.
+
+Validation correction: native nonzero YALMIP return codes were incorrectly grouped as optimal_inaccurate. Frozen results now retain native_problem_0/5/-1 (7/4/1 cases), with exact certificate status separate. No endpoint changed. Added support-derived n_min checks to the independent validators; all five method families accept their frozen valid metadata and reject deliberately underclaimed volume. See reviews/REPAIR_CHECKS.json.

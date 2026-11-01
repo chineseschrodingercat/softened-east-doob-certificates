@@ -1,0 +1,11 @@
+{
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\ProgramData\\anaconda3\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.4",
+  "mpmath": "1.3.0",
+  "scipy": "1.18.1",
+  "interval_dps": 130,
+  "warning_seen": "Anaconda emits Failed to find real location of C:\\ProgramData\\anaconda3\\python.exe; both completed audits exit 0 with all assertions evaluated.",
+  "package_layout": "historical_workspace/extensions/external_comparison_20261012/package"
+}

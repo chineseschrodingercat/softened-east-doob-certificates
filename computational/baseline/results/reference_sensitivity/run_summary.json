@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "candidate_rows": 75,
+  "constant_rows": 3,
+  "failures": [],
+  "seconds": 126.57406989997253,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "VERIFIED_RECORDS_ASSEMBLED",
+  "graph_candidates": 92,
+  "new_candidates": 17,
+  "intersections": 24,
+  "new_graph_precision": 120,
+  "prior_graph_precision": 80,
+  "constant_count": 6,
+  "candidate_failures": [],
+  "N21_decision": "Not added: N17 and N19 resolve the local shape around the certified N18-to-N20 deterioration. No monotonicity or asymptotic shape is inferred."
+}

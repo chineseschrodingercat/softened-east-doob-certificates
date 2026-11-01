@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED_ALL_EDGES",
+  "candidate_sha256": "71a69afca7ce5d8f76934c8d55207eec0c40fd291fed9d1226aff2aba250920c",
+  "c": "0.3",
+  "kappa": "0.01",
+  "s": "0.001",
+  "R": 3,
+  "all_integer_n_at_least": 5,
+  "lower_density": "-0.00743860233294387955988855275286267",
+  "upper_density": "0.00295268354185137773499073196750149",
+  "width": 0.010391285874795257,
+  "vertices": 16,
+  "edges": 32,
+  "max_edge_enclosure_radius": 7.45333394586398e-82,
+  "interval_dps": 80,
+  "seconds": 0.006116700125858188,
+  "scope": "Exact decimal candidate and duals; outward exponential enclosures. No Perron accuracy or optimizer optimality assumption."
+}

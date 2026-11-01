@@ -1,0 +1,17 @@
+{
+  "successful_runs": 114,
+  "failed_runs": 10,
+  "paired_rows": 228,
+  "cost_pairings": 1044,
+  "matched_tolerance_rows": 144,
+  "methods": {
+    "anderson": 12,
+    "eisert": 30,
+    "ffs_t0": 6,
+    "js_block_plus_certificate": 9,
+    "kull_native": 12,
+    "kull_rg": 15,
+    "lti": 27,
+    "variance_plus_certificate": 3
+  }
+}

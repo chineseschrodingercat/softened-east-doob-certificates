@@ -1,0 +1,6 @@
+{
+  "spinChains_1D/MPS_Relaxation/Relaxation_dual_SDP.m": "b5abf00fefe84e130587a9a3e83181736c93753b87956769402344538d0a5334",
+  "spinChains_1D/MPS_Relaxation/declareDualVars.m": "17a811df4c4769cf31ff4320f8a4a3f58ba1c8d2522c895b43418953f0360d55",
+  "spinChains_1D/MPS_Relaxation/setDualConstraints.m": "fce70d187671ff7a4eff0d866785c14c712d3c65c661a9b46bc7d2191a69bdad",
+  "auxFunctions/tensor.m": "ff433f7396d46e4a71aa6ce17ceb50b391a7c39c82eb37de15ea7affb37a1c57"
+}

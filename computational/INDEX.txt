@@ -1,0 +1,94 @@
+COMPUTATIONAL EVIDENCE INDEX
+Journal of Statistical Physics
+Pointwise Perron locality and certified Doob dynamics for the softened East model
+Minhao Liu | minhliu@ttu.edu
+
+Main Table 1 and the full seven-row table in SM9.4:
+  certificates/published/table1_endpoints.json and .csv
+  certificates/published/certificates.json (all canonical per-case records)
+  certificates/published/table1_cost_accuracy.json and .csv
+  certificates/published/range_study.json (original three-run timing arrays)
+  certificates/code/check_cost_accuracy.py (exact widths and median check)
+
+SM9.2 complete worked certificate:
+  certificates/published/worked_certificate.json
+
+SM9 range study and Figure SM3:
+  certificates/published/range_study.json and .csv
+  certificates/code/plot_ranges.py
+
+SM9 local constants and strict transfer centers:
+  certificates/cases.json (shared frozen candidate paths and input hashes)
+  certificates/seeds/*_seed.json
+  certificates/code/phase0.py, certify_infinite.py, run_final.py
+  certificates/checks/closed_form_checks.py, reversible_checks.py
+  certificates/validation/CROSS_PRECISION.json
+
+Finite-ring centers and their specific-volume scope:
+  certificates/published/finite_constants/*_constants.json
+  certificates/published/finite_reference/summary.json
+  certificates/published/finite_n128/summary.json
+  certificates/code/finite_variational.py
+
+SM4 range, volume, tilt and cost records:
+  baseline/results/reference_sensitivity/ and baseline/results/extension/
+  candidate JSON, paired *_verified.json and *_metrics.json
+  *_reference.json records of generation settings and measured timing
+  baseline/results/reference_certification/*_reference_certified.json
+  baseline/results/extension_reference_checks/*_reference_certified.json
+  The last two groups contain 17 stored reference-vector diagnostics; their
+  underlying large vectors are not included and are not replayed by this archive.
+
+SM4.4, SM6 and SM8 locality, spatial tails and sufficient constants:
+  baseline/results/practical/*_locality.json
+  baseline/results/extension/*_locality.json
+  baseline/results/practical/condition.json, inconclusive_conditions.json,
+    relative_target_plan.json and tiny_window_baseline.json
+  baseline/results/independent_constants.json and budget_plan.json
+  baseline/inputs/parameter_verification.json
+
+SM5 intersections and SM8 Figures SM1--SM2:
+  baseline/results/revision_analysis/all_candidates.csv, reference_zoom.csv,
+    spatial_tail_bounds.json, reference_bounds.json and combined*.json/.csv
+  baseline/code/figures_v14.py
+  Weak-softening failures and adverse reference-volume outcomes remain included.
+
+SM11 exact-rational counterexample:
+  monthus/README.txt
+  monthus/code/replay_monthus.py and replay_independent.py
+  monthus/results/ (rational factors, potentials and published results)
+
+SM12 external methods, costs, unsuccessful runs and both spectral targets:
+  external/tables/all_paired_results.json and .csv
+  external/tables/best_by_method.json
+  external/tables/matched_tolerances.json and .csv
+  external/tables/campaign_costs.json and .csv
+  external/tables/trial_certificate_overhead.json
+  external/results/ (trials, maps, duals, factors, seeds, outputs and failures)
+  external/maps/ (map-generation records)
+  external/*_JOBS.json (ordered solver jobs and repair grids)
+  external/ENVIRONMENT.json
+  external/code/replay_external.py
+  external/README.md and external/THEORY_AUDIT.md
+
+Local-observable and constructive-softening diagnostics:
+  validation/local_observables/validate_new_results.py
+  validation/local_observables/validation/new_results_diagnostics.json
+  The remaining records in that validation/ subdirectory are stored numerical
+  checks associated with the same analytical extension.
+
+Doob identity, exact algebra and the representative path-entropy certificate:
+  validation/doob_diagnostics/check_new_math.py and check_doob_identity.py
+  validation/doob_diagnostics/DOOB_CERTIFICATE.json
+  validation/doob_diagnostics/validation/new_math_diagnostics.json
+  validation/doob_diagnostics/validation/original_36_replay.json
+  validation/doob_diagnostics/validation/strict_example/
+
+Independent implementation checks and retained numerical outputs:
+  validation/independent_math/
+  validation/independent_certificates/
+  README.txt identifies the commands and their exact/floating distinction.
+
+MANIFEST.json exhaustively records shipped byte counts and SHA-256 hashes.
+The current article and Supplementary Material are provided as separate PDFs;
+their editable sources and figures are in source_files.zip.

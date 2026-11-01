@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "example",
+  "graph_certificates": 1,
+  "quadratic_certificates": 1,
+  "manifest_files_checked": 1054,
+  "interval_dps": 120,
+  "endpoint_comparison": "exact equality to all published decimal endpoints",
+  "scope_note": "Graph intervals cover all n>=2R-1; quadratic limit intervals certify Lambda only."
+}

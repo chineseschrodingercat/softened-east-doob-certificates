@@ -1,0 +1,1 @@
+{"status": "TIMEOUT", "seconds": 180, "args": ["--method", "eisert", "--case", "weak", "--m", "6", "--overlap", "3", "--solver", "SCS"]}

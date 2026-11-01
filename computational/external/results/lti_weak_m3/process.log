@@ -1,0 +1,3 @@
+{"method": "lti", "case": "weak", "m": 3, "status": "EXACT_DUAL_CERTIFICATE", "upper_density": "-0.00012818219398445044216754117992818", "total_seconds": 0.012591399950906634, "process_peak_memory_bytes": 282849280}
+
+Failed to find real location of C:\ProgramData\anaconda3\python.exe

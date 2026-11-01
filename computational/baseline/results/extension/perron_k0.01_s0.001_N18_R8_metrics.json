@@ -1,0 +1,31 @@
+{
+  "method": "perron",
+  "c": "0.3",
+  "kappa": "0.01",
+  "s": "0.001",
+  "R": 8,
+  "N": 18,
+  "n_min": 15,
+  "lower": "-0.00047412435007912002622461663876459",
+  "upper": "0.00001885371374156507246844700121575",
+  "exact_width": "24648903191034254934653181999017/50000000000000000000000000000000000",
+  "width": 0.0004929780638206851,
+  "candidate": "perron_k0.01_s0.001_N18_R8.json",
+  "sha256": "fcc46dbf732cbf60c9159523ca012c929da0e353c5434d27f6f55b405b021c1b",
+  "generation_seconds": 0.02021649992093444,
+  "graph_seconds": 2.311009299941361,
+  "generation_peak_rss_mb": 138.59375,
+  "verification_seconds": 1.4353418999817222,
+  "worker_peak_rss_mb": 138.59375,
+  "graph_vertices": 16384,
+  "graph_edges": 32768,
+  "status": "VERIFIED_ALL_EDGES",
+  "solver": {
+    "reference_sha256": "3cc7836593bbe29125b1434d9d387fdae2aac0925116f8e6735be1177a0e0958"
+  },
+  "reference_seconds": 4.339725600089878,
+  "reference_peak_rss_mb": 395.80078125,
+  "reference_reused": true,
+  "time_provenance": "Fresh single-thread v12 generation and 80-digit verification",
+  "worker_seconds": 3.783938799984753
+}

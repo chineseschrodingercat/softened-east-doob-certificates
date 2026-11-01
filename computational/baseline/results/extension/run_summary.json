@@ -1,0 +1,52 @@
+{
+  "status": "COMPLETE",
+  "new_candidates": 17,
+  "completed": [
+    "perron_k1_s0.02_N18_R8",
+    "variational_k1_s0.02_N18_R8",
+    "perron_k1_s0.02_N18_R9",
+    "variational_k1_s0.02_N18_R9",
+    "perron_k0.1_s0.01_N18_R8",
+    "variational_k0.1_s0.01_N18_R8",
+    "perron_k0.1_s0.01_N18_R9",
+    "variational_k0.1_s0.01_N18_R9",
+    "perron_k0.01_s0.001_N18_R8",
+    "variational_k0.01_s0.001_N18_R8",
+    "perron_k0.01_s0.001_N18_R9",
+    "variational_k0.01_s0.001_N18_R9",
+    "reference_k0.01_s0.001_N17_R7",
+    "perron_k0.01_s0.001_N17_R7",
+    "reference_k0.01_s0.001_N19_R7",
+    "perron_k0.01_s0.001_N19_R7",
+    "constant_k1_s-0.02_N18_R7",
+    "reference_k1_s-0.02_N18_R7",
+    "perron_k1_s-0.02_N18_R7",
+    "constant_k1_s-0.01_N18_R7",
+    "reference_k1_s-0.01_N18_R7",
+    "perron_k1_s-0.01_N18_R7",
+    "constant_k1_s0.01_N18_R7",
+    "reference_k1_s0.01_N18_R7",
+    "perron_k1_s0.01_N18_R7"
+  ],
+  "failures": [],
+  "decisions": [
+    {
+      "kappa": "1",
+      "R9_attempted": true,
+      "rule": "Both R8 workers <90 s and peak <4096 MiB"
+    },
+    {
+      "kappa": "0.1",
+      "R9_attempted": true,
+      "rule": "Both R8 workers <90 s and peak <4096 MiB"
+    },
+    {
+      "kappa": "0.01",
+      "R9_attempted": true,
+      "rule": "Both R8 workers <90 s and peak <4096 MiB"
+    }
+  ],
+  "seconds": 738.3473284000065,
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

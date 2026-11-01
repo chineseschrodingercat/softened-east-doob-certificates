@@ -1,0 +1,3 @@
+{"method": "anderson", "case": "weak", "m": 8, "status": "EXACT_POSITIVE_VECTOR_BLOCK_CERTIFICATE", "upper_density": "-0.00011069718115312749112998559271848", "total_seconds": 0.06796459993347526, "process_peak_memory_bytes": 87220224}
+
+Failed to find real location of C:\ProgramData\anaconda3\python.exe

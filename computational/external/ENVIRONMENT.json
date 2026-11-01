@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-12",
+  "python": "3.13.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "logical_cpus": 16,
+  "physical_cpus": 8,
+  "ram_bytes": 66126708736,
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "mpmath": "1.3.0",
+  "cvxpy": "1.9.3",
+  "psutil": "7.2.2",
+  "blas_threads": 1,
+  "cim_query": "access unavailable",
+  "clarabel_max_threads": 0,
+  "clarabel_direct_solve_method": "auto",
+  "solver_thread_scope": "BLAS and OMP requested one thread; Clarabel internal setting automatic; actual solver threads not measured",
+  "matlab": "26.2.0.3386108 (R2026b)",
+  "yalmip": "R20250626_fix2",
+  "sdpt3": "4.0-20240410, standard model=1",
+  "native_thread_option": "-singleCompThread"
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "run": "js_moderate_R2",
+    "range": 2,
+    "exact_graph_edges": 8,
+    "exhaustive_residual_words": 32,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0133798293108907455322810984030443726378",
+    "beta_lower": "0.0996773459592898746638485071788884168890",
+    "total_residual_flip_upper": "0.0237430846969500974962374338711841040247",
+    "strict_n18_center": {
+      "lower": "-0.0016466164555294474510581929016698957030322280824772318472499812795678",
+      "upper": "-0.0016466164555294474510581929016698957030322280824772318472499812795677",
+      "width": 1.6884075641254567e-131,
+      "transfer_states": 4
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "js_moderate_R3",
+    "range": 3,
+    "exact_graph_edges": 32,
+    "exhaustive_residual_words": 512,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0266697692755601780003974795312347062205",
+    "beta_lower": "0.0993569514801897729821335831185173587234",
+    "total_residual_flip_upper": "0.0111043444167397355520218179123219588787",
+    "strict_n18_center": {
+      "lower": "-0.0016450417243808054879273740878849799821218939125298429151075138249871",
+      "upper": "-0.0016450417243808054879273740878849799821218939125298429151075138249870",
+      "width": 1.7434404051986462e-131,
+      "transfer_states": 16
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "js_moderate_R4",
+    "range": 4,
+    "exact_graph_edges": 128,
+    "exhaustive_residual_words": 8192,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0359693417951419581473032144872911605836",
+    "beta_lower": "0.0992767310481736259693625239101840927692",
+    "total_residual_flip_upper": "0.0042067275125543070088293469744141073856",
+    "strict_n18_center": {
+      "lower": "-0.0016448265017419453212302554382580294693295495511543667212659102240696",
+      "upper": "-0.0016448265017419453212302554382580294693295495511543667212659102240695",
+      "width": 2.1286702927109734e-131,
+      "transfer_states": 64
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "js_strong_R2",
+    "range": 2,
+    "exact_graph_edges": 8,
+    "exhaustive_residual_words": 32,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0019070258813096331942130677142129609440",
+    "beta_lower": "0.9857891713103252873134524103635313610704",
+    "total_residual_flip_upper": "0.0033699254628887614655432507205022392760",
+    "strict_n18_center": {
+      "lower": "-0.0107541566049626163576240009292907321445651416510494909912792921789165",
+      "upper": "-0.0107541566049626163576240009292907321445651416510494909912792921789164",
+      "width": 6.498277873922227e-131,
+      "transfer_states": 4
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "js_strong_R3",
+    "range": 3,
+    "exact_graph_edges": 32,
+    "exhaustive_residual_words": 512,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0024411502730463926637875081711868213385",
+    "beta_lower": "0.9856511790244236595422986381022265442421",
+    "total_residual_flip_upper": "0.0006334147837360206657810789984848339502",
+    "strict_n18_center": {
+      "lower": "-0.0107541464321683415631022252229255819600668332305044113987153007940303",
+      "upper": "-0.0107541464321683415631022252229255819600668332305044113987153007940302",
+      "width": 6.991372129938006e-131,
+      "transfer_states": 16
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "js_strong_R4",
+    "range": 4,
+    "exact_graph_edges": 128,
+    "exhaustive_residual_words": 8192,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0025129179179689277940847787897056099167",
+    "beta_lower": "0.9856480408173526414028448332884051512615",
+    "total_residual_flip_upper": "0.0000744559477385556903349908638625993064",
+    "strict_n18_center": {
+      "lower": "-0.0107541463517900643167319261874742317291385758306522262313952387930794",
+      "upper": "-0.0107541463517900643167319261874742317291385758306522262313952387930793",
+      "width": 9.826664102028733e-131,
+      "transfer_states": 64
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "js_weak_R2",
+    "range": 2,
+    "exact_graph_edges": 8,
+    "exhaustive_residual_words": 32,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0033597941419187406693190268880264028471",
+    "beta_lower": "0.0100015204549637031052428320809332201439",
+    "total_residual_flip_upper": "0.0058924588497481530270256006476742928525",
+    "strict_n18_center": {
+      "lower": "-0.0001296957749516376185649239676909326850368813319524471595804991333879",
+      "upper": "-0.0001296957749516376185649239676909326850368813319524471595804991333878",
+      "width": 9.916917961388764e-132,
+      "transfer_states": 4
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "js_weak_R3",
+    "range": 3,
+    "exact_graph_edges": 32,
+    "exhaustive_residual_words": 512,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0113819044885296848507323301748074761216",
+    "beta_lower": "0.0099891590279791328857877414741671208883",
+    "total_residual_flip_upper": "0.0045294153399939143276808851892089132903",
+    "strict_n18_center": {
+      "lower": "-0.0001295058752378554949183736086867003477238303976537875464104696005524",
+      "upper": "-0.0001295058752378554949183736086867003477238303976537875464104696005523",
+      "width": 9.446387170212993e-132,
+      "transfer_states": 16
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "js_weak_R4",
+    "range": 4,
+    "exact_graph_edges": 128,
+    "exhaustive_residual_words": 8192,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0252087351580477539392746743268228392699",
+    "beta_lower": "0.0099768709107032740461958748316033978590",
+    "total_residual_flip_upper": "0.0042795872826599694756918942851474846600",
+    "strict_n18_center": {
+      "lower": "-0.0001293831824375436911135379802704599583022611886509400237893989361435",
+      "upper": "-0.0001293831824375436911135379802704599583022611886509400237893989361434",
+      "width": 9.614237335486222e-132,
+      "transfer_states": 64
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "variance_moderate_R3",
+    "range": 3,
+    "exact_graph_edges": 32,
+    "exhaustive_residual_words": 512,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0220107853257514560739094126207465377172",
+    "beta_lower": "0.0994193423883514131720658462197511721986",
+    "total_residual_flip_upper": "0.0089900884892442249248876887037410174719",
+    "strict_n18_center": {
+      "lower": "-0.0016452665655832787414259274155705604733178954755219935924931717958552",
+      "upper": "-0.0016452665655832787414259274155705604733178954755219935924931717958551",
+      "width": 1.7544469734132842e-131,
+      "transfer_states": 16
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "variance_strong_R3",
+    "range": 3,
+    "exact_graph_edges": 32,
+    "exhaustive_residual_words": 512,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0024360986622907104627549648473416255068",
+    "beta_lower": "0.9856530451876844184938521964751791236168",
+    "total_residual_flip_upper": "0.0006037550591339431803336975615615167061",
+    "strict_n18_center": {
+      "lower": "-0.0107541464339502335927160516992560778680833151375313744631646602175958",
+      "upper": "-0.0107541464339502335927160516992560778680833151375313744631646602175957",
+      "width": 7.554908422527467e-131,
+      "transfer_states": 16
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  },
+  {
+    "run": "variance_weak_R3",
+    "range": 3,
+    "exact_graph_edges": 32,
+    "exhaustive_residual_words": 512,
+    "quadratic_hypotheses_satisfied": true,
+    "alpha_upper": "0.0033193352356943379040942388889418257532",
+    "beta_lower": "0.0099941996632064786026374253385036274050",
+    "total_residual_flip_upper": "0.0013803705087741258673954489678848822656",
+    "strict_n18_center": {
+      "lower": "-0.0001297162422982436717753367079193883177904896179633748887186626549159",
+      "upper": "-0.0001297162422982436717753367079193883177904896179633748887186626549158",
+      "width": 8.964849810822584e-132,
+      "transfer_states": 16
+    },
+    "status": "INDEPENDENT_INTERVAL_ENCLOSURE_WITHIN_ALL_FROZEN_ENDPOINTS"
+  }
+]

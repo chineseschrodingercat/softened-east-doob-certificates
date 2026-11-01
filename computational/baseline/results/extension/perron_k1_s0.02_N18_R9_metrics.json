@@ -1,0 +1,32 @@
+{
+  "method": "perron",
+  "c": "0.3",
+  "kappa": "1",
+  "s": "0.02",
+  "R": 9,
+  "N": 18,
+  "n_min": 17,
+  "lower": "-0.01075414635584325237151352003772890",
+  "upper": "-0.01075414634713620830083431801151298",
+  "exact_width": "108838050883490025327699/12500000000000000000000000000000000",
+  "width": 8.707044070679201e-12,
+  "candidate": "perron_k1_s0.02_N18_R9.json",
+  "sha256": "48824e28abeb77c04a71321a32fc264179175b1fb0af4ce92235bfaee3c56d64",
+  "generation_seconds": 0.02141939988359809,
+  "graph_seconds": 118.12367319990881,
+  "generation_peak_rss_mb": 321.9765625,
+  "verification_seconds": 6.037710899952799,
+  "worker_peak_rss_mb": 321.9765625,
+  "graph_vertices": 65536,
+  "graph_edges": 131072,
+  "status": "VERIFIED_ALL_EDGES",
+  "solver": {
+    "reference_sha256": "765d8e12e19c408f53002d7a0538c3f685266b0056e434b9f5ef9724ade555f5"
+  },
+  "reference_seconds": 1.2841316000558436,
+  "reference_peak_rss_mb": 395.5234375,
+  "reference_reused": true,
+  "time_provenance": "Fresh single-thread v12 generation and 80-digit verification",
+  "locality_status": "CERTIFIED_INFINITE_AND_ALL_RING_LOG_ERROR",
+  "worker_seconds": 142.39314009994268
+}

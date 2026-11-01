@@ -1,0 +1,137 @@
+[
+  {
+    "run": "eisert_moderate_m6_t3_scs",
+    "status": "TIMEOUT",
+    "seconds": 180,
+    "args": [
+      "--method",
+      "eisert",
+      "--case",
+      "moderate",
+      "--m",
+      "6",
+      "--overlap",
+      "3",
+      "--solver",
+      "SCS"
+    ]
+  },
+  {
+    "run": "eisert_strong_m6_t3_scs",
+    "status": "TIMEOUT",
+    "seconds": 180,
+    "args": [
+      "--method",
+      "eisert",
+      "--case",
+      "strong",
+      "--m",
+      "6",
+      "--overlap",
+      "3",
+      "--solver",
+      "SCS"
+    ]
+  },
+  {
+    "run": "eisert_weak_m6_t3_scs",
+    "status": "TIMEOUT",
+    "seconds": 180,
+    "args": [
+      "--method",
+      "eisert",
+      "--case",
+      "weak",
+      "--m",
+      "6",
+      "--overlap",
+      "3",
+      "--solver",
+      "SCS"
+    ]
+  },
+  {
+    "run": "kull_rg_moderate_k5_gauged",
+    "status": "FAILED",
+    "method": "kull_rg",
+    "case": "moderate",
+    "m": 4,
+    "overlap": 1,
+    "last_k": 5,
+    "error": "SolverError(\"Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\")",
+    "traceback": "Traceback (most recent call last):\n  File \"external/code/benchmark.py\", line 177, in main\n    else:r=solve_sdp(a.case,a.method,a.m,out,a.overlap,a.last_k,a.solver)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"external/code/benchmark.py\", line 148, in solve_sdp\n    if solver=='CLARABEL':prob.solve(solver=cp.CLARABEL,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10,max_iter=300)\n                          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 687, in solve\n    return solve_func(self, *args, **kwargs)\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1148, in _solve\n    self.unpack_results(solution, solving_chain, inverse_data)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1453, in unpack_results\n    raise error.SolverError(\n    ...<2 lines>...\n            \"information.\")\ncvxpy.error.SolverError: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\n",
+    "wall_seconds": 0.8685860000550747
+  },
+  {
+    "run": "kull_rg_moderate_k7_gauged",
+    "status": "FAILED",
+    "method": "kull_rg",
+    "case": "moderate",
+    "m": 4,
+    "overlap": 1,
+    "last_k": 7,
+    "error": "SolverError(\"Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\")",
+    "traceback": "Traceback (most recent call last):\n  File \"external/code/benchmark.py\", line 177, in main\n    else:r=solve_sdp(a.case,a.method,a.m,out,a.overlap,a.last_k,a.solver)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"external/code/benchmark.py\", line 148, in solve_sdp\n    if solver=='CLARABEL':prob.solve(solver=cp.CLARABEL,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10,max_iter=300)\n                          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 687, in solve\n    return solve_func(self, *args, **kwargs)\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1148, in _solve\n    self.unpack_results(solution, solving_chain, inverse_data)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1453, in unpack_results\n    raise error.SolverError(\n    ...<2 lines>...\n            \"information.\")\ncvxpy.error.SolverError: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\n",
+    "wall_seconds": 0.8961215999443084
+  },
+  {
+    "run": "kull_rg_strong_k3_gauged",
+    "status": "FAILED",
+    "method": "kull_rg",
+    "case": "strong",
+    "m": 4,
+    "overlap": 1,
+    "last_k": 3,
+    "error": "SolverError(\"Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\")",
+    "traceback": "Traceback (most recent call last):\n  File \"external/code/benchmark.py\", line 177, in main\n    else:r=solve_sdp(a.case,a.method,a.m,out,a.overlap,a.last_k,a.solver)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"external/code/benchmark.py\", line 148, in solve_sdp\n    if solver=='CLARABEL':prob.solve(solver=cp.CLARABEL,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10,max_iter=300)\n                          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 687, in solve\n    return solve_func(self, *args, **kwargs)\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1148, in _solve\n    self.unpack_results(solution, solving_chain, inverse_data)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1453, in unpack_results\n    raise error.SolverError(\n    ...<2 lines>...\n            \"information.\")\ncvxpy.error.SolverError: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\n",
+    "wall_seconds": 0.8716027999762446
+  },
+  {
+    "run": "kull_rg_strong_k5_gauged",
+    "status": "FAILED",
+    "method": "kull_rg",
+    "case": "strong",
+    "m": 4,
+    "overlap": 1,
+    "last_k": 5,
+    "error": "SolverError(\"Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\")",
+    "traceback": "Traceback (most recent call last):\n  File \"external/code/benchmark.py\", line 177, in main\n    else:r=solve_sdp(a.case,a.method,a.m,out,a.overlap,a.last_k,a.solver)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"external/code/benchmark.py\", line 148, in solve_sdp\n    if solver=='CLARABEL':prob.solve(solver=cp.CLARABEL,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10,max_iter=300)\n                          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 687, in solve\n    return solve_func(self, *args, **kwargs)\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1148, in _solve\n    self.unpack_results(solution, solving_chain, inverse_data)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1453, in unpack_results\n    raise error.SolverError(\n    ...<2 lines>...\n            \"information.\")\ncvxpy.error.SolverError: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\n",
+    "wall_seconds": 0.8920814001467079
+  },
+  {
+    "run": "kull_rg_strong_k7_gauged",
+    "status": "FAILED",
+    "method": "kull_rg",
+    "case": "strong",
+    "m": 4,
+    "overlap": 1,
+    "last_k": 7,
+    "error": "SolverError(\"Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\")",
+    "traceback": "Traceback (most recent call last):\n  File \"external/code/benchmark.py\", line 177, in main\n    else:r=solve_sdp(a.case,a.method,a.m,out,a.overlap,a.last_k,a.solver)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"external/code/benchmark.py\", line 148, in solve_sdp\n    if solver=='CLARABEL':prob.solve(solver=cp.CLARABEL,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10,max_iter=300)\n                          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 687, in solve\n    return solve_func(self, *args, **kwargs)\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1148, in _solve\n    self.unpack_results(solution, solving_chain, inverse_data)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1453, in unpack_results\n    raise error.SolverError(\n    ...<2 lines>...\n            \"information.\")\ncvxpy.error.SolverError: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\n",
+    "wall_seconds": 0.8821044999640435
+  },
+  {
+    "run": "kull_rg_weak_k5_gauged",
+    "status": "FAILED",
+    "method": "kull_rg",
+    "case": "weak",
+    "m": 4,
+    "overlap": 1,
+    "last_k": 5,
+    "error": "SolverError(\"Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\")",
+    "traceback": "Traceback (most recent call last):\n  File \"external/code/benchmark.py\", line 177, in main\n    else:r=solve_sdp(a.case,a.method,a.m,out,a.overlap,a.last_k,a.solver)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"external/code/benchmark.py\", line 148, in solve_sdp\n    if solver=='CLARABEL':prob.solve(solver=cp.CLARABEL,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10,max_iter=300)\n                          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 687, in solve\n    return solve_func(self, *args, **kwargs)\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1148, in _solve\n    self.unpack_results(solution, solving_chain, inverse_data)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1453, in unpack_results\n    raise error.SolverError(\n    ...<2 lines>...\n            \"information.\")\ncvxpy.error.SolverError: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\n",
+    "wall_seconds": 0.8839288000017405
+  },
+  {
+    "run": "kull_rg_weak_k7_gauged",
+    "status": "FAILED",
+    "method": "kull_rg",
+    "case": "weak",
+    "m": 4,
+    "overlap": 1,
+    "last_k": 7,
+    "error": "SolverError(\"Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\")",
+    "traceback": "Traceback (most recent call last):\n  File \"external/code/benchmark.py\", line 177, in main\n    else:r=solve_sdp(a.case,a.method,a.m,out,a.overlap,a.last_k,a.solver)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"external/code/benchmark.py\", line 148, in solve_sdp\n    if solver=='CLARABEL':prob.solve(solver=cp.CLARABEL,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10,max_iter=300)\n                          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 687, in solve\n    return solve_func(self, *args, **kwargs)\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1148, in _solve\n    self.unpack_results(solution, solving_chain, inverse_data)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"historical_workspace/extensions/external_comparison_20261012/runtime/cvxpy/problems/problem.py\", line 1453, in unpack_results\n    raise error.SolverError(\n    ...<2 lines>...\n            \"information.\")\ncvxpy.error.SolverError: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.\n",
+    "wall_seconds": 0.9051439000759274
+  }
+]

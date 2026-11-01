@@ -1,0 +1,26 @@
+PACKAGING NOTES
+
+The computational evidence has been reorganized for the accompanying article.
+Numerical inputs, endpoints, solver failures, return codes, timing arrays and
+candidate generation records are retained. Obsolete local workspace prefixes in
+JSON metadata and text logs are normalized to relative package paths. Upstream
+author-function paths are relative to their named source repository, which is
+not distributed here; see external/README.md for obtaining those exact sources.
+Other historical workspace locations use a historical_workspace/ marker rather
+than implying those external files are part of this archive. JSON numeric tokens
+and all non-path scientific values remain unchanged. The plot script's SVG salt
+uses a neutral name, affecting generated SVG identifiers only. No optimization
+or new benchmark was performed as part of packaging.
+
+Analytical diagnostics and independent implementation checks are grouped in
+validation/. Their frozen numerical values are unchanged. The original
+script hashes in those historical outputs describe the scripts at execution time.
+The relocated independent-check scripts use neutral directory/output names.
+Their output argument is required where necessary to prevent overwriting the
+retained records. Numerical expressions and verification conditions are unchanged.
+
+Article PDFs/source files, editorial drafts, revision diffs, internal review
+reports, duplicate console logs and cache files are not part of this computational
+archive. The current manuscript sources and figure files are in source_files.zip.
+MANIFEST.json has been rebuilt for the exact files shipped here. A manifest check
+is an integrity check; it is distinct from recomputing a scientific certificate.

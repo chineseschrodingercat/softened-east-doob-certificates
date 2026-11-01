@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite these computational materials alongside the accompanying manuscript."
+type: software
+title: "Pointwise Perron locality and certified Doob dynamics for the softened East model: computational materials"
+authors:
+  - family-names: Liu
+    given-names: Minhao
+    affiliation: Texas Tech University
+    email: minhliu@ttu.edu
+version: "1.0.0"
+date-released: 2026-11-01
+repository-code: "https://github.com/chineseschrodingercat/softened-east-doob-certificates"
+url: "https://github.com/chineseschrodingercat/softened-east-doob-certificates/releases/tag/v1.0.0"
